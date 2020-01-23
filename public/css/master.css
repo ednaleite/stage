@@ -1,0 +1,277 @@
+/*
+
+*** CSS APP ***
+
+.autores{ 
+
+	VCNT;
+	contatoednaleite
+
+}
+
+*/
+
+/* Conteúdo geral do app */
+
+.inicio-conteudo{
+
+	margin-top: 12%;
+	width: 100%;
+}
+
+.lista-conteudo{
+
+	margin-top: 12%;
+	padding: 1rem 2rem;
+}
+
+.add-conteudo{
+
+	margin-top: 12%;
+	padding: 1rem 2rem;
+}
+
+.centralizar{
+
+	margin: 0 auto;
+}
+
+
+/* Estilos comuns a várias telas*/
+
+.botaoAdd{
+  position: fixed;
+  right: 20;
+  bottom: 200;
+  z-index: 20;
+  width: 200px;
+  height: 200px;
+  border: solid 0.5px gray;
+  border-radius: 100px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.4);
+  cursor: pointer;
+}
+
+.iconeAdd{
+  position: absolute;
+  right: 50;
+  bottom: 0;
+  z-index: 20;
+  font-size: 15vw;
+  font-weight: 100;
+  color: rgb(60,60,60);
+}
+
+.esquerda{
+
+  left: 40;
+}
+
+.direita{
+
+  right: 40;
+}
+
+.botaoNavegacao{
+  position: fixed;
+  bottom: 200;
+  z-index: 20;
+  width: 150px;
+  height: 150px;
+  border: solid 0.5px gray;
+  border-radius: 75px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.4);
+  cursor: pointer;
+}
+
+.iconeNavegacao{
+  position: absolute;
+  right: 25;
+  bottom: -15;
+  z-index: 20;
+  font-size: 15vw;
+  font-weight: 100;
+  color: rgb(60,60,60);
+}
+
+.barraPesquisa{
+
+	width: 35vw;
+	height: calc(2em + .75rem + 2px);
+	display: flex;
+	align-self: center;
+	margin-top: 1vh;
+}
+
+.tamanhoBarra{
+
+	height: calc(2em + .75rem + 2px) !important;
+}
+
+.lupaPesquisa{
+
+	height: 1.33333em;
+	align-self: center;
+	z-index: 10;
+	margin-left: -30px !important;
+ 	color: rgb(60,60,60);
+}
+
+.titulo{
+
+	font-size: 3em;
+	font-weight: 500; 
+
+}
+
+
+.titulo2{
+
+	font-size: 2em;
+	font-weight: 500; 
+
+}
+
+.formulario{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.customInput{
+
+	width: 70%;
+	margin-top: 5%;
+	font: 400 2.5em Arial !important;
+}
+
+/* Home */
+
+.comparativoVendas{
+
+	width: 100%;
+	height: 15%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.boxVenda{
+	border-radius: 3rem;
+	border: solid 3px gray;
+	display: table;
+}
+
+.valorVenda{
+
+	text-align: center;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.periodoVenda{
+
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 auto;
+}
+
+.boxContent{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 30 20;
+}
+
+.suasVendas{
+
+	text-align: center;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.graficoVendas{
+
+	width: 100%;
+	height: 40%;
+	background-color: blue
+}
+
+.produtosEstoque{
+
+	width: 100%;
+	height: 30%;
+	background-color: green
+}
+
+/* ProdutosEstoque */
+
+
+.itemProduto{
+
+	margin-top: 3%;
+	width: 100%;
+	height: 15%;
+	background-color: green;
+}
+
+/* Movimentações */
+
+.itemMovimentacao{
+
+	margin-top: 3%;
+	width: 100%;
+	height: 10%;
+	background-color: green;
+}
+
+/* Adicionar Produto */
+
+.marcaProgresso{
+
+	width: 40%;
+	height: 8%;
+}
+
+
+
+/* slide touch */
+.swiper-container {
+	width: 100%;
+	height: 300px;
+	margin: 10px auto;
+  }
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: pink;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+  
+  .swiper-button-prev{
+	  position:absolute;
+  }
+  .swiper-button-next{
+	  position:absolute;
+  }
+
+  .swiper-wrapper{
+	  margin-left: -33%;
+  }
+
+  /* fim slide */
