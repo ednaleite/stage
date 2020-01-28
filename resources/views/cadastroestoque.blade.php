@@ -11,12 +11,12 @@
 
 body {
 	font-family: montserrat, arial, verdana;
-	background-color:blue
+	background-color:white;
 }
 /*form styles*/
 #msform {
 	width: 400px;
-	margin: 300px auto;
+	margin: 190px auto;
 	text-align: center;
 	position: relative;
 }
@@ -30,13 +30,13 @@ body {
 	background: white;
 	border: 0 none;
 	border-radius: 3px;
-	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	/* box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); */
 	padding: 20px 30px;
 	
 	box-sizing: border-box;
-	width: 180%;
-	height: 90vw;
-	margin-left: -40%;
+	width: 220%;
+	height: 130vw;
+	margin-left: -60%;
 	
 	/*stacking fieldsets above each other*/
 	position: absolute;
@@ -59,33 +59,56 @@ body {
 	margin-top:40px;
 }
 /*buttons*/
-#msform .action-button {
-	width: 100px;
-	background: #27AE60;
-	font-weight: bold;
-	color: white;
-	border: 0 none;
-	border-radius: 1px;
+#msform .action-button1 {
+	
+	background: white;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    right: 30;
+    bottom: 12;
+    position: absolute;
+    border: solid 0.5px gray;
 	cursor: pointer;
-	padding: 10px 5px;
-	margin: 10px 5px;
+	box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	
+	
 }
-#msform .action-button:hover, #msform .action-button:focus {
-	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+
+#msform .action-button2 {
+	
+	background: white;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    left: 30;
+    bottom: 12;
+    position: absolute;
+    border: solid 0.5px gray;
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	
+	
 }
+
 /*headings*/
 .fs-title {
-	font-size: 15px;
+	font-size: 30px;
 	text-transform: uppercase;
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
 .fs-subtitle {
 	font-weight: normal;
-	font-size: 13px;
+	font-size: 20px;
 	color: #666;
 	margin-bottom: 20px;
 }
+
 /*progressbar*/
 #progressbar {
 	margin-bottom: 30px;
@@ -110,7 +133,7 @@ body {
 	display: block;
 	font-size: 10px;
 	color: #333;
-	background: white;
+	background:#00cccc;
 	border-radius: 3px;
 	margin: 0 auto 5px auto;
 }
@@ -119,7 +142,7 @@ body {
 	content: '';
 	width: 100%;
 	height: 2px;
-	background: white;
+	background: #99cccc;
 	position: absolute;
 	left: -50%;
 	top: 9px;
@@ -128,11 +151,12 @@ body {
 #progressbar li:first-child:after {
 	/*connector not needed before the first step*/
 	content: none; 
+	
 }
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
 #progressbar li.active:before,  #progressbar li.active:after{
-	background: #27AE60;
+	background: #009999;
 	color: white;
 }
 
@@ -142,8 +166,6 @@ body {
 }
 
 </style>
-
-
 
 
 <!-- multistep form -->
@@ -161,17 +183,27 @@ body {
 		<input type="text" name="email" placeholder="Email" />
 		<input type="password" name="pass" placeholder="Password" />
 		<input type="password" name="cpass" placeholder="Confirm Password" />
-		<input type="button" name="next" class="next action-button" value="Next" />
+
+		<div class='next iconeAddRight'><img src="{{asset('imagens/flechad.png')}}" width='110px'></div>		
+		<input type="button" class="next action-button1" value="Next" />
+
 	</fieldset>
+
 	<fieldset>
 		<h2 class="fs-title">Social Profiles</h2>
 		<h3 class="fs-subtitle">Your presence on the social network</h3>
 		<input type="text" name="twitter" placeholder="Twitter" />
 		<input type="text" name="facebook" placeholder="Facebook" />
 		<input type="text" name="gplus" placeholder="Google Plus" />
-		<input type="button" name="previous" class="previous action-button" value="Previous" />
-		<input type="button" name="next" class="next action-button" value="Next" />
+
+		<div class='previous iconeAddLeft'><img src="{{asset('imagens/flechae.png')}}" width='110px'></div>	
+		<input type="button" name="previous" class="previous action-button2" value="Previous" />
+
+		<div class='next iconeAddRight'><img src="{{asset('imagens/flechad.png')}}" width='110px'></div>
+		<input type="button" name="next" class="next action-button1" value="Next" />
+
 	</fieldset>
+
 	<fieldset>
 		<h2 class="fs-title">Personal Details</h2>
 		<h3 class="fs-subtitle">We will never sell it</h3>
@@ -179,8 +211,13 @@ body {
 		<input type="text" name="lname" placeholder="Last Name" />
 		<input type="text" name="phone" placeholder="Phone" />
 		<textarea name="address" placeholder="Address"></textarea>
-		<input type="button" name="previous" class="previous action-button" value="Previous" />
-		<input type="submit" name="submit" class="submit action-button" value="Submit" />
+
+		<div class='previous iconeAddLeft'><img src="{{asset('imagens/flechae.png')}}" width='110px'></div>	
+		<input type="button" name="previous" class="previous action-button2" value="Previous" />
+
+		<div class='submit iconeAddRight'><img src="{{asset('imagens/flechad.png')}}" width='110px'></div>
+		<input type="submit" name="submit" class="submit action-button1" value="Submit" />
+		
 	</fieldset>
 </form>
 
@@ -191,8 +228,8 @@ body {
 <script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
 
 
-<button class="botaoNavegacao esquerda"><span class="iconeNavegacao">+</span></button>
-<button class="botaoNavegacao direita"><span class="iconeNavegacao">+</span></button>
+<!-- <button class="botaoNavegacao esquerda"><span class="iconeNavegacao">+</span></button>
+<button class="botaoNavegacao direita"><span class="iconeNavegacao">+</span></button> -->
 
 
 <script>
@@ -220,7 +257,7 @@ $(".next").click(function(){
 			//1. scale current_fs down to 80%
 			scale = 1 - (1 - now) * 0.2;
 			//2. bring next_fs from the right(50%)
-			left = (now * 25)+"%";
+			left = (now * 14)+"%";
 			//3. increase opacity of next_fs to 1 as it moves in
 			opacity = 1 - now;
 			current_fs.css({'transform': 'scale('+scale+')'});
@@ -255,7 +292,7 @@ $(".previous").click(function(){
 			//1. scale previous_fs from 80% to 100%
 			scale = 0.8 + (1 - now) * 0.2;
 			//2. take current_fs to the right(50%) - from 0%
-			left = ((1-now) * 25)+"%";
+			left = ((1-now) * 14)+"%";
 			//3. increase opacity of previous_fs to 1 as it moves in
 			opacity = 1 - now;
 			current_fs.css({'left': left});

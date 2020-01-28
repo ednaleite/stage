@@ -15,9 +15,9 @@
         			<img src="imagens/teste.png" width="60%"></a>
 	        	</div>
 	        	<div class="w-75 d-flex flex-row flex-fill align-content-center">
-	        		<img src="imagens/btn.png" width="20%" height="70%" class="d-flex align-self-center mx-auto"></a>
-		        	<img src="imagens/btn.png" width="20%" height="70%" class="d-flex align-self-center mx-auto"></a>
-		        	<img src="imagens/btn.png" width="10%" height="30%" class="d-flex align-self-center mx-auto"></a>
+	        		<img src="imagens/btn.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
+		        	<img src="imagens/btn.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
+		        	<img src="imagens/btn.png" width="9%"  height="40%"  class="d-flex align-self-center mx-auto"></a>
 	        	</div>
         	</div>
         </div>

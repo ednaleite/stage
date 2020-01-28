@@ -53,15 +53,25 @@
   cursor: pointer;
 }
 
-.iconeAdd{
+.iconeAddRight{
   position: absolute;
-  right: 50;
-  bottom: 0;
+  right: 52;
+  bottom: 61;
   z-index: 20;
-  font-size: 15vw;
+  font-size: 10vw;
   font-weight: 100;
   color: rgb(60,60,60);
 }
+
+.iconeAddLeft{
+	position: absolute;
+	left: 52;
+	bottom: 61;
+	z-index: 20;
+	font-size: 10vw;
+	font-weight: 100;
+	color: rgb(60,60,60);
+  }
 
 .esquerda{
 
@@ -161,9 +171,10 @@
 }
 
 .boxVenda{
-	border-radius: 3rem;
-	border: solid 3px gray;
+	border-radius: 2rem;
+	border: solid 2px gray;
 	display: table;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
 }
 
 .valorVenda{
@@ -196,15 +207,16 @@
 .graficoVendas{
 
 	width: 100%;
-	height: 40%;
-	background-color: blue
+	height: 30%;
+	margin-top: 5%;
 }
 
 .produtosEstoque{
 
 	width: 100%;
-	height: 30%;
-	background-color: green
+	height: 25%;
+	margin-top: 25%;
+	
 }
 
 /* ProdutosEstoque */
@@ -241,13 +253,13 @@
 /* slide touch */
 .swiper-container {
 	width: 100%;
-	height: 300px;
+	height: 320px;
 	margin: 10px auto;
   }
   .swiper-slide {
 	text-align: center;
 	font-size: 18px;
-	background: pink;
+	width: 99%;
 	/* Center slide text vertically */
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -261,6 +273,9 @@
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	align-items: center;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.14);
+	border-radius: 5px;
+	
   }
   
   .swiper-button-prev{
