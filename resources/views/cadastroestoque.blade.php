@@ -2,6 +2,134 @@
 @section('title', 'cadastroestoque')
 @section('content')
 <style>
+	@media screen 
+  and (min-device-height: 818px) 
+  and (max-device-height: 830px){
+  	body{
+  		background-color: red;
+  	}
+  	#msform #btnext{
+	
+	background: white;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    right: 30;
+    bottom: -195px;
+    position: absolute;
+    border: solid 0.5px gray;
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	}
+
+	.iconeAddRight{
+	  position: absolute;
+	  right: 52;
+	  bottom: -145px;
+	  z-index: 20;
+	  font-size: 10vw;
+	  font-weight: 100;
+	  color: rgb(60,60,60);
+	}
+
+	#msform #btprevious{
+		background: white;
+	    font-weight: bold;
+	    color: white;
+	    border-radius: 100px;
+	    width: 150px;
+	    height: 150px;
+	    left: 30;
+	    bottom: -195px;
+	    position: absolute;
+	    border: solid 0.5px gray;
+		cursor: pointer;
+		box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	}
+
+		.iconeAddLeft{
+		position: absolute;
+		left: 52;
+		bottom: -145px;
+		z-index: 20;
+		font-size: 10vw;
+		font-weight: 100;
+		color: rgb(60,60,60);
+	  }
+
+}
+
+
+
+@media screen 
+  and (min-device-height: 810px) 
+  and (max-device-height: 817px){
+  	body{
+  		background-color: red;
+  	}
+
+  	#msform #btnext{
+	
+	background: white;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    right: 30;
+    bottom: -340px;
+    position: absolute;
+    border: solid 0.5px gray;
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	}
+
+	.iconeAddRight{
+	  position: absolute;
+	  right: 52;
+	  bottom: -288px;
+	  z-index: 20;
+	  font-size: 10vw;
+	  font-weight: 100;
+	  color: rgb(60,60,60);
+	}
+
+	#msform #btprevious{
+		background: white;
+	    font-weight: bold;
+	    color: white;
+	    border-radius: 100px;
+	    width: 150px;
+	    height: 150px;
+	    left: 30;
+	    bottom: -340px;
+	    position: absolute;
+	    border: solid 0.5px gray;
+		cursor: pointer;
+		box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	}
+
+		.iconeAddLeft{
+		position: absolute;
+		left: 52;
+		bottom: -288px;
+		z-index: 20;
+		font-size: 10vw;
+		font-weight: 100;
+		color: rgb(60,60,60);
+	  }
+
+}
+
+ 
+
+
+
+
+
+
 
 /*custom font*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
@@ -11,7 +139,6 @@
 
 body {
 	font-family: montserrat, arial, verdana;
-	background-color:white;
 }
 /*form styles*/
 #msform {
@@ -68,7 +195,7 @@ body {
     width: 150px;
     height: 150px;
     right: 30;
-    bottom: 12;
+    bottom: 12px;
     position: absolute;
     border: solid 0.5px gray;
 	cursor: pointer;
@@ -86,7 +213,7 @@ body {
     width: 150px;
     height: 150px;
     left: 30;
-    bottom: 12;
+    bottom: 12px;
     position: absolute;
     border: solid 0.5px gray;
 	cursor: pointer;
@@ -161,9 +288,6 @@ body {
 }
 
 
-#red{
-	margin-top: 30;
-}
 
 </style>
 
@@ -185,7 +309,7 @@ body {
 		<input type="password" name="cpass" placeholder="Confirm Password" />
 
 		<div class='next iconeAddRight'><img src="{{asset('imagens/flechad.png')}}" width='110px'></div>		
-		<input type="button" class="next action-button1" value="Next" />
+		<input type="button" class="next action-button1" value="Next" id='btnext' />
 
 	</fieldset>
 
@@ -197,10 +321,10 @@ body {
 		<input type="text" name="gplus" placeholder="Google Plus" />
 
 		<div class='previous iconeAddLeft'><img src="{{asset('imagens/flechae.png')}}" width='110px'></div>	
-		<input type="button" name="previous" class="previous action-button2" value="Previous" />
+		<input type="button" name="previous" class="previous action-button2" value="Previous"  id='btprevious'/>
 
 		<div class='next iconeAddRight'><img src="{{asset('imagens/flechad.png')}}" width='110px'></div>
-		<input type="button" name="next" class="next action-button1" value="Next" />
+		<input type="button" name="next" class="next action-button1" value="Next" id='btnext' />
 
 	</fieldset>
 
@@ -213,10 +337,10 @@ body {
 		<textarea name="address" placeholder="Address"></textarea>
 
 		<div class='previous iconeAddLeft'><img src="{{asset('imagens/flechae.png')}}" width='110px'></div>	
-		<input type="button" name="previous" class="previous action-button2" value="Previous" />
+		<input type="button" name="previous" class="previous action-button2" value="Previous" id='btprevious'/>
 
 		<div class='submit iconeAddRight'><img src="{{asset('imagens/flechad.png')}}" width='110px'></div>
-		<input type="submit" name="submit" class="submit action-button1" value="Submit" />
+		<input type="submit" name="submit" class="submit action-button1" value="Submit"  id='btnext'/>
 		
 	</fieldset>
 </form>

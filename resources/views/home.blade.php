@@ -6,6 +6,14 @@
 <link rel="stylesheet" href="swiper-master/package/css/swiper.css">
 <link rel="stylesheet" href="swiper-master/package/css/swiper.min.css">
 <style>
+  body{}
+  #dados{
+    width: 120%;
+    height: 80%;
+    margin-top: 12%;
+    margin-left: -10.3%;
+  }
+
    #juntar{
     display: flex;
     justify-content:space-between;
@@ -85,119 +93,7 @@
 
 
 <div class="graficoVendas">
-	  <div id="chart-container"></div>
-    <!-- Step 1 - Include the fusioncharts core library -->
-    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
-    <!-- Step 2 - Include the fusion theme -->
-    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
-    <script type="text/javascript">
-    const dataSource = {
-    chart: {
-    caption: "Estatísticas de Venda",
-    subcaption: "Comparativo do Mês",
-    numdivlines: "3",
-    showvalues: "0",
-    legenditemfontsize: "15",
-    legenditemfontbold: "1",
-    "numberScaleValue": "1024,1024,1024",
-    "numberScaleUnit": " MB, GB, TB",
-    theme: "fusion"
-  },
-  categories: [
-    {
-      category: [
-        {
-          label: "Jan 1"
-        },
-        {
-          label: "Jan 2"
-        },
-        {
-          label: "Jan 3"
-        },
-        {
-          label: "Jan 4"
-        },
-        {
-          label: "Jan 5"
-        },
-        {
-          label: "Jan 6"
-        },
-        {
-          label: "Jan 7"
-        }
-      ]
-    }
-  ],
-  dataset: [
-    {
-      seriesname: "Lucros",
-      data: [
-        {
-          value: "55"
-        },
-        {
-          value: "45"
-        },
-        {
-          value: "52"
-        },
-        {
-          value: "29"
-        },
-        {
-          value: "48"
-        },
-        {
-          value: "28"
-        },
-        {
-          value: "32"
-        }
-      ]
-    },
-    {
-      seriesname: "Gastos",
-      data: [
-        {
-          value: "50"
-        },
-        {
-          value: "30"
-        },
-        {
-          value: "49"
-        },
-        {
-          value: "22"
-        },
-        {
-          value: "43"
-        },
-        {
-          value: "14"
-        },
-        {
-          value: "31"
-        }
-      ]
-    }
-  ]
-};
-
-FusionCharts.ready(function() {
-  var myChart = new FusionCharts({
-    type: "msspline",
-    renderAt: "chart-container",
-    width: "100%",
-    height: "100%",
-    dataFormat: "json",
-    dataSource
-  }).render();
-});
-
-    </script>
+ <img src="{{asset('imagens/dados3.png')}}" id="dados"></div> 
 </div>
 
 
