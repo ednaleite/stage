@@ -6,7 +6,9 @@
 <link rel="stylesheet" href="swiper-master/package/css/swiper.css">
 <link rel="stylesheet" href="swiper-master/package/css/swiper.min.css">
 <style>
-  body{}
+  body{
+    background-color: #f8f8f8;
+  }
   #dados{
     width: 120%;
     height: 80%;
@@ -58,6 +60,12 @@
     font-size:20px;
     color: #767676;
   }
+  #a{
+    margin-top: 45px;
+  }
+  #b{
+    margin-top: 54px;
+  }
 </style>
 
 
@@ -93,7 +101,38 @@
 
 
 <div class="graficoVendas">
- <img src="{{asset('imagens/dados3.png')}}" id="dados"></div> 
+
+  <div style="margin-top: 5%; margin-left: 6%; font-size: 60px">Lucros</div>
+
+
+  <div style="display: flex; flex-direction: row;margin-top: -15%">
+    <div style="width: 20%;
+    margin-top: 21%;
+    margin-left: 4%;
+    font-size: 34px;
+    padding: 17px 22px;">
+      <p>Novembro</p>
+      
+      <p id="a">Dezembro</p>
+      
+      <p id="a">Janeiro</p>
+      
+      <p id="a">Fevereiro</p>
+    </div>
+    <div style="width: 20%; margin-top: 21%; margin-left: 6%; font-size: 28px;  padding: 24px 22px">
+      <p>R$ 200,00</p>
+      
+      <p id="b">R$ 630,00</p>
+      
+      <p id="b">R$ 510,00</p>
+      
+      <p id="b">R$ 300,00</p>
+    </div>
+  </div>
+
+
+<div></div>
+
 </div>
 
 
@@ -132,7 +171,7 @@
 
       <div class="swiper-slide">
         <div id='juntar'> <div id="foto">
-          <img src="{{asset('imagens/vestido7.jpg')}}" id="produto"></div> 
+          <img src="{{asset('imagens/vestido6.jpg')}}" id="produto"></div> 
           <div  id="info">
            <div id='nomeproduto'>Vestido Preto P</div>
            <div id='estoqueevendidos'>No estoque</div>
@@ -153,7 +192,7 @@
 
 	    <div class="swiper-slide">
         <div id='juntar'> <div id="foto">
-          <img src="{{asset('imagens/vestido6.jpg')}}" id="produto"></div> 
+          <img src="{{asset('imagens/vestido7.jpg')}}" id="produto"></div> 
           <div id="info">bnbvnbvnn</div> 
         </div>
       </div>
@@ -169,8 +208,8 @@
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
     <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
   </div>
 </div>
 
