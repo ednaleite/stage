@@ -316,9 +316,9 @@ body {
 		<h2 class="fs-title">Cadastro de Produto</h2>
 		<h3 class="fs-subtitle">Preencha todos os dados corretamente</h3>
 		<div id="ajusteinputs">
-		<div id="atributo">Nome</div><input type="text" name="nomeproduto" placeholder="" />
-		<div id="atributo">Descrição</div><input type="password" name="descproduto" placeholder="" />
-		<div id="atributo">Unidade de medida</div><input type="password" name="unimedproduto" placeholder="" />
+		<!-- <div id="atributo">Nome</div> --><input type="text" name="nomeproduto" placeholder="Nome" />
+		<!-- <div id="atributo">Descrição</div> --><input type="password" name="descproduto" placeholder="Descrição" />
+		<!-- <div id="atributo">Unidade de medida</div> --><input type="password" name="unimedproduto" placeholder="Unidade de medida" />
 		</div>
 		<div class='next iconeAddRight'><img src="{{asset('imagens/flechad.png')}}" width='110px'></div>		
 		<input type="button" class="next action-button1" value="Next" id='btnext' />
