@@ -64,8 +64,8 @@
 
 
 @media screen 
-  and (min-device-width: 360px) 
-  and (max-device-width: 390px){
+  and (min-device-width: 320px) 
+  and (max-device-width: 360px){
   	body{
   		background-color: pink;
   	}
@@ -80,7 +80,7 @@
     width: 150px;
     height: 150px;
     right: 30;
-    bottom: 5%;
+    bottom: 12%;
     position: absolute;
     border: solid 0.5px gray;
 	cursor: pointer;
@@ -90,7 +90,7 @@
 	.iconeAddRight{
 	  position: absolute;
 	  right: 52;
-	  bottom: 12%;
+	  bottom: 19%;
 	  z-index: 20;
 	  font-size: 10vw;
 	  font-weight: 100;
@@ -105,7 +105,7 @@
 	    width: 150px;
 	    height: 150px;
 	    left: 30;
-	    bottom: 5%;
+	    bottom: 12%;
 	    position: absolute;
 	    border: solid 0.5px gray;
 		cursor: pointer;
@@ -115,7 +115,7 @@
 		.iconeAddLeft{
 		position: absolute;
 		left: 52;
-		bottom: 12%;
+		bottom: 19%;
 		z-index: 20;
 		font-size: 10vw;
 		font-weight: 100;
