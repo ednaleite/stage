@@ -256,12 +256,12 @@ body {
 	content: counter(step);
 	counter-increment: step;
 	width: 32px;
-    line-height: 29px;
+    line-height: 36px;
 	display: block;
-	font-size: 10px;
+	font-size: 18px;
 	color: #333;
 	background:#00cccc;
-	border-radius: 3px;
+	border-radius: 6px;
 	margin: 0 auto 5px auto;
 }
 /*progressbar connectors*/
