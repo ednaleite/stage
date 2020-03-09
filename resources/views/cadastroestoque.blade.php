@@ -149,8 +149,8 @@ body {
 }
 
 #msform ul {
-	width: 823px;
-    margin-left: -56%;
+	width: 875px;
+    margin-left: -63%;
  }
 
 #msform fieldset {
@@ -182,7 +182,7 @@ body {
     box-sizing: border-box;
     font-family: montserrat;
     color: #2C3E50;
-    font-size: 26px;
+    font-size: 36px;
     margin-top: 21px;
 }
 /*buttons*/
@@ -295,7 +295,7 @@ body {
 
 #ajusteinputs{
 	text-align: justify;
-	margin-top: 30%;
+	margin-top: 17%;
 	
 }
 
