@@ -149,8 +149,8 @@ body {
 }
 
 #msform ul {
-	width: 875px;
-    margin-left: -63%;
+	width: 879px;
+    margin-left: -61%
  }
 
 #msform fieldset {
@@ -176,7 +176,7 @@ body {
 #msform input, #msform textarea {
 	padding: 12px;
     border: 1.5px solid #ccc;
-    border-radius: 3px;
+    border-radius: 7px;
     margin-bottom: 50px;
     width: 100%;
     box-sizing: border-box;
