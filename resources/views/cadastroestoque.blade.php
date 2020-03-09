@@ -149,9 +149,9 @@ body {
 }
 
 #msform ul {
-	width: 700px;
-	margin-left: -39%;
-}
+	width: 767px;
+    margin-left: -48%;
+ }
 
 #msform fieldset {
 	background: white;
@@ -224,14 +224,14 @@ body {
 
 /*headings*/
 .fs-title {
-	font-size: 42px;
+	font-size: 57px;
 	/*text-transform: uppercase;*/
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
 .fs-subtitle {
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 25px;
 	color: #666;
 	margin-bottom: 20px;
 }
@@ -289,13 +289,14 @@ body {
 
 #atributo{
 	margin-left: 1%;
-    margin-top: 12px
+    margin-top: 12px;
+    font-size: 40px;
 }
 
 #ajusteinputs{
 	text-align: justify;
-	margin-top: 25%;
-	font-size: 26px;
+	margin-top: 30%;
+	
 }
 
 
