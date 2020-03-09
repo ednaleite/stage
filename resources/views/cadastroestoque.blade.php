@@ -225,7 +225,7 @@ body {
 	margin-top: 7%;
 	box-sizing: border-box;
 	width: 220%;
-	height: 76vh;
+	height: 73vh;
 	margin-left: -60%;
 	
 	/*stacking fieldsets above each other*/
