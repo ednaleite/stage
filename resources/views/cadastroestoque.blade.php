@@ -159,7 +159,7 @@ body {
 	border-radius: 3px;
 	/* box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); */
 	padding: 20px 30px;
-	
+	margin-top: 7%;
 	box-sizing: border-box;
 	width: 220%;
 	height: 130vw;
