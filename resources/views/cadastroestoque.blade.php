@@ -6,7 +6,7 @@
   and (min-device-height: 818px) 
   and (max-device-height: 830px){
   	body{
-  		background-color: red;
+  		background-color: green;
   	}
   	#msform #btnext{
 	
@@ -225,7 +225,7 @@ body {
 	margin-top: 7%;
 	box-sizing: border-box;
 	width: 220%;
-	height: 130vw;
+	height: 76vh;
 	margin-left: -60%;
 	
 	/*stacking fieldsets above each other*/
