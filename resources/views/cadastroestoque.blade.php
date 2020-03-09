@@ -175,9 +175,9 @@ body {
 /*inputs*/
 #msform input, #msform textarea {
 	padding: 12px;
-    border: 1px solid #ccc;
+    border: 1.5px solid #ccc;
     border-radius: 3px;
-    margin-bottom: 33px;
+    margin-bottom: 50px;
     width: 100%;
     box-sizing: border-box;
     font-family: montserrat;
