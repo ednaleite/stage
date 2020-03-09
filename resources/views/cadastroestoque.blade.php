@@ -64,6 +64,69 @@
 
 
 @media screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 390px){
+  	body{
+  		background-color: pink;
+  	}
+
+
+  	#msform #btnext{
+	
+	background: white;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    right: 30;
+    bottom: 5%;
+    position: absolute;
+    border: solid 0.5px gray;
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	}
+
+	.iconeAddRight{
+	  position: absolute;
+	  right: 52;
+	  bottom: 12%;
+	  z-index: 20;
+	  font-size: 10vw;
+	  font-weight: 100;
+	  color: rgb(60,60,60);
+	}
+
+	#msform #btprevious{
+		background: white;
+	    font-weight: bold;
+	    color: white;
+	    border-radius: 100px;
+	    width: 150px;
+	    height: 150px;
+	    left: 30;
+	    bottom: 5%;
+	    position: absolute;
+	    border: solid 0.5px gray;
+		cursor: pointer;
+		box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	}
+
+		.iconeAddLeft{
+		position: absolute;
+		left: 52;
+		bottom: 12%;
+		z-index: 20;
+		font-size: 10vw;
+		font-weight: 100;
+		color: rgb(60,60,60);
+	  }
+
+}
+
+
+
+@media screen 
   and (min-device-height: 810px) 
   and (max-device-height: 817px){
   	body{
@@ -326,8 +389,8 @@ body {
 	</fieldset>
 
 	<fieldset>
-		<h2 class="fs-title">Social Profiles</h2>
-		<h3 class="fs-subtitle">Your presence on the social network</h3>
+		<h2 class="fs-title">Cadastro de Produtos</h2>
+		<h3 class="fs-subtitle">Preencha todos os dados corretamente</h3>
 		<input type="text" name="twitter" placeholder="Twitter" />
 		<input type="text" name="facebook" placeholder="Facebook" />
 		<input type="text" name="gplus" placeholder="Google Plus" />
