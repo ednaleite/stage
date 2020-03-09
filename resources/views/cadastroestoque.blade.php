@@ -194,8 +194,8 @@ body {
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    right: 30;
-    bottom: 12px;
+    right: 30px;
+    bottom: 8%;
     position: absolute;
     border: solid 0.5px gray;
 	cursor: pointer;
@@ -212,8 +212,8 @@ body {
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    left: 30;
-    bottom: 12px;
+    left: 30px;
+    bottom: 8%;
     position: absolute;
     border: solid 0.5px gray;
 	cursor: pointer;
