@@ -62,6 +62,66 @@
 }
 
 
+@media screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 319px){
+  	body{
+  		background-color: gray;
+  	}
+
+
+  	#msform #btnext{
+	
+	background: white;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    right: 30;
+    bottom: 11%;
+    position: absolute;
+    border: solid 0.5px gray;
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	}
+
+	.iconeAddRight{
+	  position: absolute;
+	  right: 52;
+	  bottom: 18%;
+	  z-index: 20;
+	  font-size: 10vw;
+	  font-weight: 100;
+	  color: rgb(60,60,60);
+	}
+
+	#msform #btprevious{
+		background: white;
+	    font-weight: bold;
+	    color: white;
+	    border-radius: 100px;
+	    width: 150px;
+	    height: 150px;
+	    left: 30;
+	    bottom: 11%;
+	    position: absolute;
+	    border: solid 0.5px gray;
+		cursor: pointer;
+		box-shadow: 0 5px 10px rgba(0,0,0,.4);
+	}
+
+		.iconeAddLeft{
+		position: absolute;
+		left: 52;
+		bottom: 18%;
+		z-index: 20;
+		font-size: 10vw;
+		font-weight: 100;
+		color: rgb(60,60,60);
+	  }
+
+}
 
 @media screen 
   and (min-device-width: 320px) 
