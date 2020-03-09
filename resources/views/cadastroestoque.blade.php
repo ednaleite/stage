@@ -149,8 +149,8 @@ body {
 }
 
 #msform ul {
-	width: 767px;
-    margin-left: -48%;
+	width: 823px;
+    margin-left: -56%;
  }
 
 #msform fieldset {
@@ -245,18 +245,18 @@ body {
 }
 #progressbar li {
 	list-style-type: none;
-	color: white;
-	text-transform: uppercase;
-	font-size: 9px;
-	width: 33.33%;
-	float: left;
-	position: relative;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 33.33%;
+    float: left;
+    position: relative;
 }
 #progressbar li:before {
 	content: counter(step);
 	counter-increment: step;
-	width: 20px;
-	line-height: 20px;
+	width: 32px;
+    line-height: 29px;
 	display: block;
 	font-size: 10px;
 	color: #333;
@@ -290,7 +290,7 @@ body {
 #atributo{
 	margin-left: 1%;
     margin-top: 12px;
-    font-size: 40px;
+    font-size: 37px;
 }
 
 #ajusteinputs{
