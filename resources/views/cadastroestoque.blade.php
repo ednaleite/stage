@@ -27,7 +27,7 @@
 	.iconeAddRight{
 	  position: absolute;
 	  right: 52;
-	  bottom: -145px;
+	  bottom: -124px;
 	  z-index: 20;
 	  font-size: 10vw;
 	  font-weight: 100;
@@ -174,16 +174,16 @@ body {
 }
 /*inputs*/
 #msform input, #msform textarea {
-	padding: 15px;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	margin-bottom: 10px;
-	width: 100%;
-	box-sizing: border-box;
-	font-family: montserrat;
-	color: #2C3E50;
-	font-size: 13px;
-	margin-top:40px;
+	padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 33px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 26px;
+    margin-top: 21px;
 }
 /*buttons*/
 #msform .action-button1 {
@@ -224,8 +224,8 @@ body {
 
 /*headings*/
 .fs-title {
-	font-size: 30px;
-	text-transform: uppercase;
+	font-size: 42px;
+	/*text-transform: uppercase;*/
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
@@ -287,6 +287,16 @@ body {
 	color: white;
 }
 
+#atributo{
+	margin-left: 1%;
+    margin-top: 12px
+}
+
+#ajusteinputs{
+	text-align: justify;
+	margin-top: 25%;
+	font-size: 26px;
+}
 
 
 </style>
@@ -296,18 +306,19 @@ body {
 <form id="msform">
 	<!-- progressbar -->
 	<ul id="progressbar">
-		<li class="active">Account Setup</li>
+		<li class="active">Características</li>
 		<li>Social Profiles</li>
 		<li>Personal Details</li>
 	</ul>
 	<!-- fieldsets -->
 	<fieldset>
-		<h2 class="fs-title">Create your account</h2>
-		<h3 class="fs-subtitle">This is step 1</h3>
-		<input type="text" name="email" placeholder="Email" />
-		<input type="password" name="pass" placeholder="Password" />
-		<input type="password" name="cpass" placeholder="Confirm Password" />
-
+		<h2 class="fs-title">Cadastro de Produto</h2>
+		<h3 class="fs-subtitle">Preencha todos os dados corretamente</h3>
+		<div id="ajusteinputs">
+		<div id="atributo">Nome</div><input type="text" name="nomeproduto" placeholder="" />
+		<div id="atributo">Descrição</div><input type="password" name="descproduto" placeholder="" />
+		<div id="atributo">Unidade de medida</div><input type="password" name="unimedproduto" placeholder="" />
+		</div>
 		<div class='next iconeAddRight'><img src="{{asset('imagens/flechad.png')}}" width='110px'></div>		
 		<input type="button" class="next action-button1" value="Next" id='btnext' />
 
