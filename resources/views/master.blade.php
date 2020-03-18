@@ -28,10 +28,10 @@
 
          <div class="w-100 bg-secondary fixed-bottom">
         	<div class="w-100 d-flex flex-row ">
-        		<img src="imagens/btn.png" width="15%" height="15%" class="d-flex align-self-center mx-auto py-3"></a>
-        		<img src="imagens/btn.png" width="15%" height="15%" class="d-flex align-self-center mx-auto py-3"></a>
-        		<img src="imagens/btn.png" width="15%" height="15%" class="d-flex align-self-center mx-auto py-3"></a>
-        		<img src="imagens/btn.png" width="15%" height="15%" class="d-flex align-self-center mx-auto py-3"></a>
+        		<img src="imagens/btn.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
+        		<img src="imagens/btn.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
+        		<img src="imagens/btn.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
+        		<img src="imagens/btn.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
         	</div>
         </div>
 

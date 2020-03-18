@@ -42,22 +42,21 @@
     
    }
    #nomeproduto{
-    font-weight: bold;
     color:#676767;
-    font-size: 24px;
+    font-size: 27px;
     padding: 2px 2px;
    }
 
    #estoqueevendidos{
-    font-size: 22px;
-    color: #767676;
-    margin-top: 20%;
-    padding: 2px 2px;
+    font-size: 25px;
+    color: #545b62;
+    margin-top: 18%;
+   
    }
 
 
   #valor{
-    font-size:20px;
+    font-size:24.8px;
     color: #767676;
   }
   #a{
@@ -219,7 +218,7 @@
     var appendNumber = 6;
     var prependNumber = 1;
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
+      slidesPerView: 2.5, //altera o tamanho da caixa
       centeredSlides: true,
       spaceBetween: 15,
       pagination: {
