@@ -70,7 +70,7 @@
 
 <div class="comparativoVendas">
 	<h4 class="suasVendas">
-		Suas<br>Vendas
+		Suas<br>Vendaas
 	</h4>
 	<div class="boxVenda">
 		<div class="boxContent">
