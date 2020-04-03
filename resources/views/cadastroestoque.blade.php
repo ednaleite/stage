@@ -244,7 +244,7 @@ body {
     box-sizing: border-box;
     font-family: montserrat;
     color: #2C3E50;
-    font-size: 36px;
+    font-size: 38px;
     margin-top: 21px;
 }
 /*buttons*/
@@ -286,14 +286,14 @@ body {
 
 /*headings*/
 .fs-title {
-	font-size: 57px;
+	font-size: 68px;
 	/*text-transform: uppercase;*/
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
 .fs-subtitle {
 	font-weight: normal;
-	font-size: 25px;
+	font-size: 29px;
 	color: #666;
 	margin-bottom: 20px;
 }
@@ -316,15 +316,15 @@ body {
 }
 #progressbar li:before {
 	content: counter(step);
-	counter-increment: step;
-	width: 32px;
-    line-height: 36px;
-	display: block;
-	font-size: 18px;
-	color: #333;
-	background:#00cccc;
-	border-radius: 6px;
-	margin: 0 auto 5px auto;
+    counter-increment: step;
+    width: 48px;
+    line-height: 48px;
+    display: block;
+    font-size: 26px;
+    color: #333;
+    background: #00cccc;
+    border-radius: 50%;
+    margin: 0 auto 5px auto;
 }
 /*progressbar connectors*/
 #progressbar li:after {
