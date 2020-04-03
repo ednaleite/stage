@@ -43,12 +43,12 @@
    }
    #nomeproduto{
     color:#676767;
-    font-size: 27px;
+    font-size: 34px;
     padding: 2px 2px;
    }
 
    #estoqueevendidos{
-    font-size: 25px;
+    font-size: 28px;
     color: #545b62;
     margin-top: 18%;
    
@@ -56,7 +56,7 @@
 
 
   #valor{
-    font-size:24.8px;
+    font-size:1.7em;
     color: #767676;
   }
   #a{
@@ -70,7 +70,7 @@
 
 <div class="comparativoVendas">
 	<h4 class="suasVendas">
-		Suas<br>Vendaas
+		Suas<br>Vendas
 	</h4>
 	<div class="boxVenda">
 		<div class="boxContent">
@@ -100,16 +100,18 @@
 
 
 <div class="graficoVendas">
-
-  <div style="margin-top: 5%; margin-left: 6%; font-size: 60px">Lucros</div>
+<div id="ok">
+  <div style="margin-top: 3%;
+    margin-left: 6%;
+    font-size: 60px">Lucros</div>
 
 
   <div style="display: flex; flex-direction: row;margin-top: -15%">
-    <div style="width: 20%;
+    <div style="
     margin-top: 21%;
     margin-left: 4%;
-    font-size: 34px;
-    padding: 17px 22px;">
+    font-size: 39px;
+    padding: 39px 22px;">
       <p>Novembro</p>
       
       <p id="a">Dezembro</p>
@@ -118,7 +120,7 @@
       
       <p id="a">Fevereiro</p>
     </div>
-    <div style="width: 20%; margin-top: 21%; margin-left: 6%; font-size: 28px;  padding: 24px 22px">
+    <div style="margin-top: 21%; margin-left: 2%; font-size: 33px;  padding: 46px 22px">
       <p>R$ 200,00</p>
       
       <p id="b">R$ 630,00</p>
@@ -128,9 +130,7 @@
       <p id="b">R$ 300,00</p>
     </div>
   </div>
-
-
-<div></div>
+</div>
 
 </div>
 
