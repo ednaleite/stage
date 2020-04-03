@@ -317,7 +317,7 @@ body {
 #progressbar li:before {
 	content: counter(step);
     counter-increment: step;
-    width: 48px;
+    width: 49px;
     line-height: 48px;
     display: block;
     font-size: 26px;
