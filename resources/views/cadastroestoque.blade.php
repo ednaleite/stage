@@ -309,7 +309,7 @@ body {
 	list-style-type: none;
     color: black;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 16px;
     width: 33.33%;
     float: left;
     position: relative;
@@ -317,10 +317,10 @@ body {
 #progressbar li:before {
 	content: counter(step);
     counter-increment: step;
-    width: 49px;
-    line-height: 48px;
+    width: 63px;
+    line-height: 61px;
     display: block;
-    font-size: 26px;
+    font-size: 33px;
     color: #333;
     background: #00cccc;
     border-radius: 50%;
@@ -370,8 +370,8 @@ body {
 	<!-- progressbar -->
 	<ul id="progressbar">
 		<li class="active">Características</li>
-		<li>Social Profiles</li>
-		<li>Personal Details</li>
+		<li>Descrição</li>
+		<li>Códigos</li>
 	</ul>
 	<!-- fieldsets -->
 	<fieldset>
