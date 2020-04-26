@@ -5,10 +5,41 @@
 @section('content')
 <link rel="stylesheet" href="swiper-master/package/css/swiper.css">
 <link rel="stylesheet" href="swiper-master/package/css/swiper.min.css">
+<link rel="stylesheet" href="css/style.css"/>
 <style>
   body{
     background-color: #f8f8f8;
   }
+
+  @media only screen 
+  and (min-device-height: 780px) 
+  and (max-device-height: 825px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+      /*background-color: red;*/
+    }
+
+    .produtosEstoque{
+    margin-top: 8vh;
+  }
+
+    .graficoVendas{ 
+
+    margin-top: 16%;
+  
+}
+.comparativoVendas{
+  
+    margin-top: 18%;
+}
+.swiper-container {
+  width: 100%;
+  height: 85%;
+  margin: 10px auto;
+  }
+
+
+}
   #dados{
     width: 120%;
     height: 80%;
@@ -129,6 +160,15 @@
       
       <p id="b">R$ 300,00</p>
     </div>
+
+    <div style="margin-top: 18%; margin-left: 6%;height: 360px;width: 40%;">
+      <span class="chart" data-percent="67" >
+    <div style="font-size: 12px;margin-top: 8%;">Total</div>
+    <div style="font-size: 13px">R$ 1.750</div>
+    <div style="margin-top: 9%;margin-left: -14%;font-size: 10px;">Ano de 2020</div>
+  </span>
+    </div>
+  
   </div>
 </div>
 
@@ -232,5 +272,22 @@
     });
   </script>
 
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/jquery.easypiechart.min.js"></script>
+  <script>
+  $(function() {
+    $('.chart').easyPieChart({
+      easing: 'easeOutBounce',
+      scaleColor:false,
+      size:360,
+      trackColor:'#bebebe',
+      onStep: function(from, to, percent) {
+        $(this.el).find('.percent').text(Math.round(percent));
+      }
+    });
+  });
+  </script>
 
 @endsection

@@ -9,15 +9,15 @@
 
     </head>
     <body>
-        <div class="w-100 bg-secondary fixed-top">
+        <div class="w-100 fixed-top" style="background-color:#f3ddd0">
         	<div class="w-100 d-flex flex-row justify-content-between">
         		<div class="p-3">
         			<img src="imagens/teste.png" width="60%"></a>
 	        	</div>
 	        	<div class="w-75 d-flex flex-row flex-fill align-content-center">
-	        		<img src="imagens/btn.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
-		        	<img src="imagens/btn.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
-		        	<img src="imagens/btn.png" width="9%"  height="40%"  class="d-flex align-self-center mx-auto"></a>
+	        		<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
+		        	<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
+		        	<img src="imagens/product.png" width="9%"  height="40%"  class="d-flex align-self-center mx-auto"></a>
 	        	</div>
         	</div>
         </div>
@@ -26,12 +26,13 @@
             @yield('content')
         </div>
 
-         <div class="w-100 bg-secondary fixed-bottom">
+         <div class="w-100 fixed-bottom" style="background-color:#f3ddd0">
         	<div class="w-100 d-flex flex-row ">
-        		<img src="imagens/btn.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
-        		<img src="imagens/btn.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
-        		<img src="imagens/btn.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
-        		<img src="imagens/btn.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
+        		<img src="imagens/product.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
+        		<img src="imagens/product.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
+        		<img src="imagens/product.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
+        		<img src="imagens/product.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
+                <img src="imagens/product.png" width="11%" height="15%" class="d-flex align-self-center mx-auto icone"></a>
         	</div>
         </div>
 

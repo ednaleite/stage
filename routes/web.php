@@ -61,3 +61,7 @@ Route::get('/movimentacoes', function(){
 Route::get('/cadastroestoque', function(){
     return view('cadastroestoque');
 });
+
+Route::get('/teste', function(){
+    return view('teste');
+});
