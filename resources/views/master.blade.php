@@ -9,7 +9,7 @@
 
     </head>
     <body>
-        <!-- <div class="w-100 fixed-top" style="background-color:#e4c2bb">
+        <div class="w-100 fixed-top" style="background-color:#e4c2bb">
         	<div class="w-100 d-flex flex-row justify-content-between">
         		<div class="p-3">
         			<img src="imagens/teste.png" width="60%"></a>
@@ -20,7 +20,7 @@
 		        	<img src="imagens/product.png" width="9%"  height="40%"  class="d-flex align-self-center mx-auto"></a>
 	        	</div>
         	</div>
-        </div> -->
+        </div>
 
         <div class="inicio-conteudo">
             @yield('content')
