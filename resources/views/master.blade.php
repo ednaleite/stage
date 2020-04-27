@@ -9,14 +9,11 @@
 
     </head>
     <body>
-        <div class="w-100 fixed-top" style="background-color:#e4c2bb">
-        	<div class="w-100 d-flex flex-row">
+        <div class="w-100 fixed-top" style="background-color:#e4c2bb;height: 4%">
+        	<div class="w-100 d-flex flex-row" >
         		
         			<img src="imagens/teste.png" style="width:35%;"></a>
-                    <div style="display: flex;
-    flex-direction: row;
-    width: 64%;
-    margin-left: 19%;">
+                    <div style="display: flex;flex-direction: row;width: 64%; margin-left: 19%;">
 	        		<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
 		        	<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
 		        	<img src="imagens/product.png" width="9%"  height="40%"  class="d-flex align-self-center mx-auto"></a>
