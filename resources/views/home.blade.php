@@ -32,6 +32,18 @@
     margin-top: 14%;
 }
 
+.ok{
+  height: 33%;
+}
+
+.meses{
+  margin-top: 17%;
+}
+
+.valor_mes{
+  margin-top: 17%;
+}
+
   }
 
   @media only screen 
@@ -154,15 +166,14 @@
 
 
 <div class="graficoVendas">
-<div id="ok">
+<div class="ok">
   <div style="margin-top: 3%;
     margin-left: 6%;
     font-size: 60px">Lucros</div>
 
 
   <div style="display: flex; flex-direction: row;margin-top: -15%">
-    <div style="
-    margin-top: 21%;
+    <div class="meses" style="
     margin-left: 4%;
     font-size: 39px;
     padding: 39px 22px;">
@@ -174,7 +185,7 @@
       
       <p id="a">Fevereiro</p>
     </div>
-    <div style="margin-top: 21%; margin-left: 2%; font-size: 33px;  padding: 46px 22px">
+    <div class="valor_mes" style="margin-left: 2%; font-size: 33px;  padding: 46px 22px">
       <p>R$ 200,00</p>
       
       <p id="b">R$ 630,00</p>

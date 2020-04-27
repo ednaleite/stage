@@ -12,7 +12,13 @@
 */
 
 /* Conteúdo geral do app */
+.meses{
+	margin-top: 21%;
+}
 
+.valor_mes{
+	margin-top: 21%; 
+}
 .icone{
 	margin-top: 2%;
 }
