@@ -9,18 +9,14 @@
 
     </head>
     <body>
-        <div class="w-100 fixed-top" style="background-color:#e4c2bb;height: 4%">
+        <div class="w-100 fixed-top" style="background-color:#e4c2bb;height: 6%;overflow: hidden;">
         	<div class="w-100 d-flex flex-row" >
-        		  <div style="width: 59%">
-        			<img src="imagens/teste.png" style="width:44%;"></div>
-                    <div style="display: flex;
-    flex-direction: row;
-    margin-left: 19%;
-    height: auto;
-    width: 45%;">
-	        		<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
-		        	<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
-		        	<img src="imagens/product.png" width="9%"  height="40%"  class="d-flex align-self-center mx-auto"></a>
+        		  <div >
+        			<img src="imagens/teste.png" style="width:62%;"></div>
+                    <div style="display: flex;flex-direction: row;margin-left: 5%;height: auto;width: 45%;">
+	        		<img src="imagens/product.png" width="26%" height="80%"  class="d-flex align-self-center mx-auto"></a>
+		        	<img src="imagens/product.png" width="26%" height="80%"  class="d-flex align-self-center mx-auto"></a>
+		        	<img src="imagens/product.png" width="15%"  height="48%"  class="d-flex align-self-center mx-auto"></a>
 	        	      </div>
         	</div>
         </div>
