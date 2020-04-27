@@ -10,15 +10,17 @@
     </head>
     <body>
         <div class="w-100 fixed-top" style="background-color:#e4c2bb">
-        	<div style="display:flex; flex-direction:row;justify-content:space-between">
-        		<div style="padding: 7px 5px">
-        			<img src="imagens/teste.png" style="width:73%"></a>
-	        	</div>
-	        	<div style="display:flex; flex-direction:row;justify-content:space-between;width: 78%">
+        	<div class="w-100 d-flex flex-row">
+        		
+        			<img src="imagens/teste.png" style="width:35%;"></a>
+                    <div style="display: flex;
+    flex-direction: row;
+    width: 64%;
+    margin-left: 19%;">
 	        		<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
 		        	<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
 		        	<img src="imagens/product.png" width="9%"  height="40%"  class="d-flex align-self-center mx-auto"></a>
-	        	</div>
+	        	      </div>
         	</div>
         </div>
 
@@ -28,7 +30,7 @@
 
          <div class="w-100 fixed-bottom" style="background-color:#e4c2bb">
            <!--  #FFE3DC -->
-        	<div class="w-100 d-flex flex-row ">
+        	<div class="w-100 d-flex flex-row">
         		<img src="imagens/casa.png" style="width:9%;" class="d-flex align-self-center mx-auto icone"></a>
         		<img src="imagens/dinheiro.png"style="width: 10%" class="d-flex align-self-center mx-auto icone"></a>
         		<img src="imagens/product.png" style="width: 9%" class="d-flex align-self-center mx-auto icone"></a>
