@@ -10,11 +10,11 @@
     </head>
     <body>
         <div class="w-100 fixed-top" style="background-color:#e4c2bb">
-        	<div class="w-100 d-flex flex-row justify-content-between">
-        		<div class="p-3">
-        			<img src="imagens/teste.png" width="60%"></a>
+        	<div style="display:flex; flex-direction:row;justify-content:space-between">
+        		<div style="padding: 7px 5px">
+        			<img src="imagens/teste.png" style="width:73%"></a>
 	        	</div>
-	        	<div class="w-75 d-flex flex-row flex-fill align-content-center">
+	        	<div style="display:flex; flex-direction:row;justify-content:space-between;width: 78%">
 	        		<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
 		        	<img src="imagens/product.png" width="16%" height="70%"  class="d-flex align-self-center mx-auto"></a>
 		        	<img src="imagens/product.png" width="9%"  height="40%"  class="d-flex align-self-center mx-auto"></a>
