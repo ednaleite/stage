@@ -12,8 +12,8 @@
         <div class="w-100 fixed-top" style="background-color:#e4c2bb;height: 6%;overflow: hidden;">
         	<div class="w-100 d-flex flex-row" >
         		  <div >
-        			<img src="imagens/teste.png" style="width:62%;"></div>
-                    <div style="display: flex;flex-direction: row;margin-left: 5%;height: auto;width: 45%;">
+        			<img src="imagens/teste.png" style="width:55%;"></div>
+                    <div style="display: flex;flex-direction: row;margin-left: 5%;height: auto;width: 42%;">
 	        		<img src="imagens/product.png" width="26%" height="80%"  class="d-flex align-self-center mx-auto"></a>
 		        	<img src="imagens/product.png" width="26%" height="80%"  class="d-flex align-self-center mx-auto"></a>
 		        	<img src="imagens/product.png" width="15%"  height="48%"  class="d-flex align-self-center mx-auto"></a>
