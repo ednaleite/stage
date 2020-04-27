@@ -33,7 +33,7 @@
 }
 
 .ok{
-  height: 33%;
+  height: 34%;
 }
 
 .meses{
