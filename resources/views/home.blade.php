@@ -11,8 +11,8 @@
     background-color: #f8f8f8;
   }
   @media only screen 
-  and (min-device-width: 1060px) 
-  and (max-device-width: 1090px)
+  and (min-device-width: 300px) 
+  and (max-device-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
     body{
