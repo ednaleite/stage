@@ -11,15 +11,15 @@
     background-color: #f8f8f8;
   }
   @media only screen 
-  and (min-device-height: 1900px) 
-  and (max-device-height: 1935px)
+  and (min-device-width: 1060px) 
+  and (max-device-width: 1090px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
     body{
       background-color: gray;
     }
      .produtosEstoque{
-    }
+    
     margin-top: 2vh;
   }
   .graficoVendas{ 
