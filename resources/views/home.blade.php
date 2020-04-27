@@ -16,21 +16,21 @@
   and (max-device-height: 825px)
   and (-webkit-min-device-pixel-ratio: 2) {
     body{
-      /*background-color: red;*/
-    }
+      /*background-color: red;
+*/    }
 
     .produtosEstoque{
-    margin-top: 8vh;
+    margin-top: 6vh;
   }
 
     .graficoVendas{ 
 
-    margin-top: 16%;
+    margin-top: 10%;
   
 }
 .comparativoVendas{
   
-    margin-top: 18%;
+    margin-top: 15%;
 }
 .swiper-container {
   width: 100%;
