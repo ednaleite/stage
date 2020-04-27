@@ -19,7 +19,7 @@
       background-color: gray;
     }
      .produtosEstoque{
-    
+    height: 28%;
     margin-top: 2vh;
   }
   .graficoVendas{ 
@@ -33,7 +33,7 @@
 }
 
 .ok{
-  height: 34%;
+  height: 36%;
 }
 
 .meses{
