@@ -12,6 +12,7 @@
 */
 
 /* Conteúdo geral do app */
+
 .icone{
 	margin-top: 2%;
 }
@@ -203,6 +204,7 @@
 	text-align: center;
 	font-size: 2.0em;
 	margin: 0 auto;
+	color: #634f46;
 }
 
 .boxContent{
@@ -216,7 +218,7 @@
 	text-align: center;
 	font-size: 2em;
 	font-weight: 600;
-	color: #6a5343;
+	color: #634f46;
 }
 
 .graficoVendas{ 
@@ -229,6 +231,7 @@
     /* box-shadow: 0 8px 16px rgba(0,0,0,0.2); */
     border-radius: 17px;
     margin-top: 5%;
+    color: #634f46;
 	
 }
 

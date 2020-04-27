@@ -163,9 +163,21 @@
 
     <div style="margin-top: 18%; margin-left: 6%;height: 360px;width: 40%;">
       <span class="chart" data-percent="67" >
-    <div style="font-size: 12px;margin-top: 8%;">Total</div>
-    <div style="font-size: 13px">R$ 1.750</div>
-    <div style="margin-top: 9%;margin-left: -14%;font-size: 10px;">Ano de 2020</div>
+    <div style="font-size: 80px;
+    margin-top: 23%;
+    margin-left: 88%;
+    font-weight: 300;">Total</div>
+
+    <div style="font-size: 41px;
+    margin-left: 22%;
+    margin-top: 5%;
+    width: 300px;">R$ 1.750</div>
+
+    <div style="margin-top: 9%;
+    margin-left: 22%;
+    font-size: 29px;
+    width: 300px;">Ano de 2020</div>
+
   </span>
     </div>
   
@@ -258,7 +270,7 @@
     var appendNumber = 6;
     var prependNumber = 1;
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 2.5, //altera o tamanho da caixa
+      slidesPerView: 2.6, //altera o tamanho da caixa
       centeredSlides: true,
       spaceBetween: 15,
       pagination: {
