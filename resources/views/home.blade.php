@@ -11,7 +11,7 @@
     background-color: #f8f8f8;
   }
   @media only screen 
-  and (min-device-width: 427px) 
+  and (min-device-width: 412px) 
   and (max-device-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -20,16 +20,16 @@
     }*/
      .produtosEstoque{
     height: 28%;
-    margin-top: 2vh;
+    margin-top: 1vh;
   }
   .graficoVendas{ 
-
+    height:39%;
     margin-top: 3%;
   }
 
   .comparativoVendas{
   
-    margin-top: 13%;
+    margin-top: 11%;
 }
 
 .ok{
@@ -197,18 +197,18 @@
 
     <div style="margin-top: 18%; margin-left: 6%;height: 360px;width: 40%;">
       <span class="chart" data-percent="67" >
-    <div style="font-size: 80px;
+    <div style="font-size: 60px;
     margin-top: 23%;
-    margin-left: 88%;
+    margin-left: 107%;
     font-weight: 300;">Total</div>
 
-    <div style="font-size: 41px;
+    <div style="font-size: 52px;
     margin-left: 22%;
-    margin-top: 5%;
+    margin-top: 14%;
     width: 300px;">R$ 1.750</div>
 
     <div style="margin-top: 9%;
-    margin-left: 22%;
+    margin-left: 20%;
     font-size: 29px;
     width: 300px;">Ano de 2020</div>
 

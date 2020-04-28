@@ -15,7 +15,7 @@
         			<img src="imagens/teste.png" style="width:47%;"></div>
                     <div style="display: flex;flex-direction: row;margin-left: 5%;width:35%;">
 	        		<!-- <img src="imagens/product.png" width="26%" height="80%"  class="d-flex align-self-center mx-auto"></a> -->
-		        	<img src="imagens/bell.png" width="24%" height="68%"  class="d-flex align-self-center mx-auto"></a>
+		        	<img src="imagens/bell.png" width="24%" height="76%"  class="d-flex align-self-center mx-auto"></a>
 
                     
                     <div style="font-size: 39px; margin-top: 4%; margin-left: 13%;">Sair</div>
