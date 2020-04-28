@@ -15,15 +15,15 @@
   and (max-device-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    /*body{
+    body{
       background-color: gray;
-    }*/
+    }
      .produtosEstoque{
     height: 28%;
-    margin-top: 1vh;
+    margin-top: 2vh;
   }
   .graficoVendas{ 
-    height:39%;
+    height:40%;
     margin-top: 3%;
   }
 
@@ -196,7 +196,7 @@
     </div>
 
     <div style="margin-top: 18%; margin-left: 6%;height: 360px;width: 40%;">
-      <span class="chart" data-percent="67" >
+    <span class="chart" data-percent="67" >
     <div style="font-size: 60px;
     margin-top: 23%;
     margin-left: 104%;
