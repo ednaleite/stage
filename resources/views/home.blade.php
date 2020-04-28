@@ -108,14 +108,14 @@
     
    }
    #nomeproduto{
-    color:#676767;
+    color: #634f46;
     font-size: 34px;
     padding: 2px 2px;
    }
 
    #estoqueevendidos{
     font-size: 28px;
-    color: #545b62;
+    color: #634f46;
     margin-top: 18%;
    
    }
@@ -123,7 +123,7 @@
 
   #valor{
     font-size:1.7em;
-    color: #767676;
+    color: #634f46;
   }
   #a{
     margin-top: 45px;
@@ -199,7 +199,7 @@
       <span class="chart" data-percent="67" >
     <div style="font-size: 60px;
     margin-top: 23%;
-    margin-left: 107%;
+    margin-left: 104%;
     font-weight: 300;">Total</div>
 
     <div style="font-size: 52px;
@@ -209,7 +209,7 @@
 
     <div style="margin-top: 9%;
     margin-left: 20%;
-    font-size: 29px;
+    font-size: 30px;
     width: 300px;">Ano de 2020</div>
 
   </span>
@@ -304,7 +304,7 @@
     var appendNumber = 6;
     var prependNumber = 1;
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 2.6, //altera o tamanho da caixa
+      slidesPerView: 2.4, //altera o tamanho da caixa
       centeredSlides: true,
       spaceBetween: 15,
       pagination: {
