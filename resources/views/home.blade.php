@@ -11,13 +11,13 @@
     background-color: #f8f8f8;
   }
   @media only screen 
-  and (min-device-width: 300px) 
+  and (min-device-width: 427px) 
   and (max-device-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    body{
+    /*body{
       background-color: gray;
-    }
+    }*/
      .produtosEstoque{
     height: 28%;
     margin-top: 2vh;
@@ -29,11 +29,11 @@
 
   .comparativoVendas{
   
-    margin-top: 14%;
+    margin-top: 13%;
 }
 
 .ok{
-  height: 36%;
+  height: 38%;
 }
 
 .meses{
