@@ -16,8 +16,8 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
     body{
-      background-color: gray;
-    }
+      /*background-color: gray;
+*/    }
      .produtosEstoque{
     height: 28%;
     margin-top: 2vh;
