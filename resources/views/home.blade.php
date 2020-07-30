@@ -140,7 +140,7 @@
 	</h4>
 	<div class="boxVenda">
 		<div class="boxContent">
-			<div class="valorVenda">100</div>
+			<div class="valorVenda">200</div>
 			<div class="periodoVenda">Hoje</div>
 		</div>
 	</div>
