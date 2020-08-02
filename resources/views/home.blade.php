@@ -334,11 +334,11 @@
 
 
 <!-- PARTE DE EXIBIÇÃO DO LUCRO ANUAL -->
-<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="js/jquery.easypiechart.min.js"></script>
   <script>
-  $(function() {
+  $(function($) {
     $('.chart').easyPieChart({
       easing: 'easeOutBounce',
       scaleColor:false,
