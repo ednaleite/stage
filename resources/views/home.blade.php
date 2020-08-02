@@ -18,13 +18,12 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
     body{
-      /*background-color: gray;*/
+      background-color: pink;
   }
 
 
   .produtosEstoque{
-    height: 42%;
-    margin-top: 2vh;
+    height: 34%;
   }
 
   .graficoVendas{ 
@@ -59,10 +58,6 @@
       background-color: red;
     }
 
-
-    .produtosEstoque{
-    margin-top: 6vh;
-  }
 
     .graficoVendas{ 
 
@@ -202,7 +197,7 @@
 
         <div class="swiper-slide"> 
           <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo1.jpg')}}" id="produto"></div> 
+            <img src="{{asset('imagens/casa.png')}}" id="produto"></div> 
           <div id="info">
           <div id='nomeproduto'>Macacão Rosa M</div>
           </div> 
@@ -211,7 +206,7 @@
 
        <div class="swiper-slide"> 
           <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo2.jpg')}}" id="produto"></div> 
+            <img src="{{asset('imagens/casa.png')}}" id="produto"></div> 
           <div id="info">
           <div id='nomeproduto'>Macacão Rosa M</div>
           </div> 
@@ -220,7 +215,7 @@
 
        <div class="swiper-slide"> 
           <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo3.jpg')}}" id="produto"></div> 
+            <img src="{{asset('imagens/casa.png')}}" id="produto"></div> 
           <div id="info">
           <div id='nomeproduto'>Macacão Rosa M</div>
           </div> 
