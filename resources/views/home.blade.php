@@ -23,7 +23,7 @@
 
 
   .produtosEstoque{
-    height: 34%;
+    height: 14%;
   }
 
   .graficoVendas{ 
