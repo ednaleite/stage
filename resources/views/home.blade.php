@@ -18,12 +18,12 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
     body{
-      background-color: pink;
+     /* background-color: pink;*/
   }
 
 
   .produtosEstoque{
-    height: 14%;
+    height: 42%;
   }
 
   .graficoVendas{ 
@@ -55,7 +55,7 @@
   and (max-device-height: 825px)
   and (-webkit-min-device-pixel-ratio: 2) {
     body{
-      background-color: red;
+      /*background-color: red;*/
     }
 
 
@@ -312,7 +312,7 @@
     // PARTE DE EXIBIÇÃO DAS FUNÇÕES DO APP
 
     var swiper = new Swiper('.swiper-container1', {
-      slidesPerView: 4.3, //altera o tamanho da caixa
+      slidesPerView: 4.2, //altera o tamanho da caixa
       centeredSlides: true,
       spaceBetween: 35, //altera o espaço entre as divs
       pagination: {
