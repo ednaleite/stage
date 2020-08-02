@@ -9,59 +9,40 @@
 
     </head>
     <body>
-        <div class="w-100 fixed-top" style="background-color:#e4c2bb;height: 6%;overflow: hidden;">
-        	<div class="w-100 d-flex flex-row" >
-        		  <div >
-        			<img src="imagens/teste.png" style="width:47%;"></div>
-                    <div style="display: flex;flex-direction: row;margin-left: 5%;width:35%;">
-	        		<!-- <img src="imagens/product.png" width="26%" height="80%"  class="d-flex align-self-center mx-auto"></a> -->
-		        	<img src="imagens/bell.png" width="26%" height="80%"  class="d-flex align-self-center mx-auto"></a>
+        <div class="w-100" style="background: #FFFEFE;transform: matrix(1, 0, 0, 1, 0, 0);box-shadow: 0px 2px 8px #E5E5E5;height: 38%;overflow: hidden;border-radius: 74px;margin-top: -56px;">
 
-                    
-                    <div style="font-size: 39px; margin-top: 4%; margin-left: 13%;">Sair</div>
-		        	<img src="imagens/close.png" width="12%"  height="42%"  class="d-flex align-self-center mx-auto"></a>
-	        	    
-
+        	<div class="w-100 d-flex flex-row">
+        		<div>
+        			<img src="imagens/menuhamb.svg" style="width: 185%;height: 36%;;margin-left: 100%;margin-top: 183%;">
                 </div>
-        	</div>
+
+                <div style="display: flex;flex-direction: row;margin-left: 69%;width: 4%;">
+		        	<img src="imagens/sinoalerta.svg" style="margin-top: 212%;margin-left: -121%;width: 175%;">
+
+                    <img src="imagens/Config.svg" style="margin-top: 212%;margin-left: 200%;width: 198%;">
+	        	</div>
+
+            </div>
+
+             <div id="titulo_vendas">
+                Vendas
+            </div>
+
+
+             <div id="mes_vendas">
+                Agosto
+            </div>
+
+
         </div>
+
+
 
         <div class="inicio-conteudo">
             @yield('content')
         </div>
 
-         <div class="w-100 fixed-bottom" style="background-color:#e4c2bb">
-           <!--  #FFE3DC -->
-        	<div class="w-100 d-flex flex-row">
-                <div style="margin-left: 5%;margin-top: 1%;width:12%" >
-        		<img src="imagens/casa.png" style="width:66%;" >
-                <div style="font-size: 34px">Início</div>
-                 </div>
-
-                <div style="margin-left: 6%;margin-top: 1%;width:12%" >
-        		<img src="imagens/dinheiro.png" style="width:66%;">
-                <div style="font-size: 34px">PDV</div>
-                 </div>
-
-                <div style="margin-left: 7%;margin-top: 1%;width:12%" >
-        		<img src="imagens/supply.png" style="width: 66%">
-                <div style="font-size: 34px;margin-left: -22%">Estoque</div>
-                </div>
-
-                <div style="margin-left: 10%;margin-top: 1%;width:12%">
-        		<img src="imagens/product.png" style="width: 66%" >
-                <div style="font-size: 34px">Lote</div>
-                </div>
-
-                <div style="margin-left: 9%;margin-top: 1%;width:12%">
-                <img src="imagens/addunidade.png" style="width: 66%">
-                <!-- class="d-flex align-self-center mx-auto" -->
-                <div style="font-size: 34px;margin-left:-19%">Unidade</div>
-                </div>
-
-
-        	</div>
-        </div>
+         
 
     </body>
 </html>

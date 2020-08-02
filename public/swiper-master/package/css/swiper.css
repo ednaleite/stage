@@ -20,7 +20,7 @@
   --swiper-theme-color: #007aff;
 }
 .swiper-container {
-  height: 90%; /*aumenta a altura da box de exibição dos produtos*/
+  height: 91%; /*aumenta a altura da box de exibição dos produtos*/
   margin-left: auto;
   margin-right: auto;
   position: relative;
