@@ -1,15 +1,22 @@
 <html>
     <head>
-        <title>App Name - @yield('title')</title>
+        <title>Stage One - @yield('title')</title>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
         <link rel="stylesheet" type="text/css" href="css/master.css">
 
     </head>
     <body>
-        <div class="w-100" style="background: #FFFEFE;transform: matrix(1, 0, 0, 1, 0, 0);box-shadow: 0px 2px 8px #E5E5E5;height: 38%;overflow: hidden;border-radius: 74px;margin-top: -56px;">
+
+
+        <div>
+            
+
+        </div>
+
+
+        <!-- <div class="w-100" style="background: #FFFEFE;transform: matrix(1, 0, 0, 1, 0, 0);box-shadow: 0px 2px 8px #E5E5E5;height: 38%;overflow: hidden;border-radius: 74px;margin-top: -56px;">
 
         	<div class="w-100 d-flex flex-row">
         		<div>
@@ -34,7 +41,7 @@
             </div>
 
 
-        </div>
+        </div> -->
 
 
 

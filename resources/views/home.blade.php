@@ -6,7 +6,7 @@
 
 <link rel="stylesheet" href="swiper-master/package/css/swiper.css">
 <link rel="stylesheet" href="swiper-master/package/css/swiper.min.css">
-<link rel="stylesheet" href="css/style.css"/>
+
 <style>
   body{
     background-color: #FFFEFE;
@@ -102,132 +102,20 @@
   #b{
     margin-top: 54px;
   }
+
+
+
 </style>
 
 
 
-
-
 <div class="produtosEstoque">
-  <div class="swiper-container">
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo1.jpg')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          <div id='estoque'>Estoque: 100</div>
-          <div id='vendidos'>Vendidos: 670</div>
-          </div> 
-         </div>
-       </div>
-
-       <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo2.jpg')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          <div id='estoque'>Estoque: 100</div>
-          <div id='vendidos'>Vendidos: 670</div>
-          </div> 
-         </div>
-       </div>
-
-       <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo3.jpg')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          <div id='estoque'>Estoque: 100</div>
-          <div id='vendidos'>Vendidos: 670</div>
-          </div> 
-         </div>
-       </div>
-
-
-        <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo4.jpg')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          <div id='estoque'>Estoque: 100</div>
-          <div id='vendidos'>Vendidos: 670</div>
-          </div> 
-         </div>
-       </div>
-       
-
-        <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo5.jpg')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          <div id='estoque'>Estoque: 100</div>
-          <div id='vendidos'>Vendidos: 670</div>
-          </div> 
-         </div>
-       </div>
-
-
-        <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/modelo6.jpg')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          <div id='estoque'>Estoque: 100</div>
-          <div id='vendidos'>Vendidos: 670</div>
-          </div> 
-         </div>
-       </div>
-
-    </div>
-    <!-- Add Pagination -->
-    <!-- <div class="swiper-pagination"></div> -->
-    <!-- Add Arrows -->
-    <!-- <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div> -->
-  </div>
+  
 </div>
 
 
 <div class="produtosEstoque1">
-  <div class="swiper-container1">
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/casa.png')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          </div> 
-         </div>
-       </div>
-
-       <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/casa.png')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          </div> 
-         </div>
-       </div>
-
-       <div class="swiper-slide"> 
-          <div id='juntar'> <div id="foto">
-            <img src="{{asset('imagens/casa.png')}}" id="produto"></div> 
-          <div id="info">
-          <div id='nomeproduto'>Macacão Rosa M</div>
-          </div> 
-         </div>
-       </div>
-
-
-
-
-
-      </div>
-    </div>
+  
  </div>
 
 
@@ -286,45 +174,9 @@
 
 
 <!-- FUNÇÃO ARRASTAR PARA O LADO -->
-<script src="swiper-master/package/js/swiper.js"></script>
-<script src="swiper-master/package/js/swiper.min.js"></script>
-<script>
-    var appendNumber = 6;
-    var prependNumber = 1;
+<!-- <script src="swiper-master/package/js/swiper.js"></script>
+<script src="swiper-master/package/js/swiper.min.js"></script> -->
 
-    // PARTE DE EXIBIÇÃO DOS PRODUTOS DO ESTOQUE
-
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3, //altera o tamanho da caixa
-      centeredSlides: true,
-      spaceBetween: 35, //altera o espaço entre as divs
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-
-
-    // PARTE DE EXIBIÇÃO DAS FUNÇÕES DO APP
-
-    var swiper = new Swiper('.swiper-container1', {
-      slidesPerView: 4.2, //altera o tamanho da caixa
-      centeredSlides: true,
-      spaceBetween: 35, //altera o espaço entre as divs
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
 
 
 
@@ -345,5 +197,6 @@
     });
   });
   </script>
+
 
 @endsection

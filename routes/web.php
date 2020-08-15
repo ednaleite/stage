@@ -65,3 +65,8 @@ Route::get('/cadastroestoque', function(){
 Route::get('/teste', function(){
     return view('teste');
 });
+
+
+Route::get('/inicio', function(){
+    return view('inicio');
+});

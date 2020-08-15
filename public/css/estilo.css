@@ -1,0 +1,168 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+   }
+
+   #menu_hamburguer{
+    width: 92%;
+    height: 51%;
+    margin-left: 28%;
+    margin-top: 37%;
+   }
+
+   #sino_alerta{
+    margin-left: 182%;
+    width: 25%;
+    margin-top: 13%;
+   }
+
+
+   #config{
+    margin-left: 235%;
+    width: 44%;
+    margin-top: 21%;
+   }
+
+   #vendas_topo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 87px;
+    letter-spacing: 0.055em;
+    color: #000000;
+    margin-top: 5%;
+    margin-left: 4%;
+   }
+
+
+   #mes_atual_vendas{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.055em;
+    color: #000000;
+    margin-left: 4%;
+    margin-top: -5%;
+   }
+
+
+   #div_vendas_semana{
+    background-color:#FFFEFE;
+    width: 100%;
+    height: 45%;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 0px 2px 8px #E5E5E5;
+   }
+
+   #titulo_produtos{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 23px;
+    letter-spacing: 0.055em;
+    color: #000000;
+    margin-left: 4%;
+    margin-top: 7%;
+   }
+
+   #botão_vermais{
+    margin-top: 6%;
+    margin-left: 40%;
+    background: #F6C1B6;
+    box-shadow: 0px 2px 8px #E5E5E5;
+    border-radius: 10px;
+    width: 93.99px;
+    height: 28.93px;
+    text-align: center;
+   }
+
+   #texto_vermais{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.055em;
+    color: #000000;
+    margin-top: 7%;
+    margin-left: 4%;
+   }
+
+
+   #imagem_produtos{
+    height: 75%; border-radius: 9px;
+   }
+
+
+ @media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 340px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #sino_alerta{
+    margin-left: 129%;
+    width: 22%;
+   }
+
+
+   #config{
+    margin-left: 132%;
+    width: 38%;
+   }
+
+
+   #menu_hamburguer {
+    width: 71%;
+  }
+
+  
+  #vendas_topo{
+  font-size: 18px;
+  }
+
+
+  #texto_vermais {
+    font-size: 13px;
+    margin-top: 7%;
+    margin-left: 4%;
+  }
+
+  #botão_vermais {
+    margin-top: 7%;
+    margin-left: 38%;
+    width: 88.99px;
+    height: 25.93px;
+  }
+
+  #titulo_produtos{
+    font-size: 19px;
+  }
+
+  }
+
+
+
+  @media only screen 
+  and (min-device-width: 341px) 
+  and (max-device-width: 400px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #sino_alerta{
+    margin-left: 164%;
+   }
+
+
+   #config{
+    margin-left: 185%;
+   }
+
+    #vendas_topo{
+    font-size: 22px;
+   }
+
+  }
