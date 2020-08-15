@@ -37,7 +37,7 @@ Route::get('consultamovimentacoes', 'MovimentacaoController@consultaMovimentacao
 Route::get('index', 'Index@Index')->name('index');
 
 Route::get('/', function(){
-    phpinfo();
+    return view('inicio');
 });
 
 Route::get('/home', function(){
