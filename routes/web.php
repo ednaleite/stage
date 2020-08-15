@@ -70,3 +70,8 @@ Route::get('/teste', function(){
 Route::get('/inicio', function(){
     return view('inicio');
 });
+
+
+Route::get('/heroku', function(){
+    return view('heroku');
+});
