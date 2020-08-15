@@ -89,7 +89,7 @@
 
             <div class="item">
               <div id="imagem_produtos">
-                <img src="{{asset('imagens/modelo1.jpg')}}" style="height: 100%; border-radius: 9px">
+                
               </div>
 
               <div style="height: 50%;border-radius: 9px;">
@@ -99,7 +99,6 @@
 
             <div class="item">
               <div id="imagem_produtos">
-                <img src="{{asset('imagens/modelo2.jpg')}}" style="height: 100%; border-radius: 9px">
               </div>
 
               <div style="height: 50%;border-radius: 9px;">
@@ -109,7 +108,7 @@
 
             <div class="item">
               <div id="imagem_produtos">
-                <img src="{{asset('imagens/modelo4.jpg')}}" style="height: 100%; border-radius: 9px">
+               
               </div>
 
               <div style="height: 50%;border-radius: 9px;">
