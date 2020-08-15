@@ -82,7 +82,7 @@
    </div>
    
 
-   <div id="teste" style="margin-left: 3%;margin-top: -3%;background-color: blue">
+   <div id="teste" style="margin-left: 3%;margin-top: -3%;">
     <section id="demos">
       <div class="row">
         <div class="">
