@@ -25,23 +25,18 @@
    }
 
    #menu_hamburguer{
-    width: 92%;
-    height: 48%;
-    margin-left: 28%;
-    margin-top: 37%;
+      width: 11%;
+      margin-left: -2%;
    }
 
    #sino_alerta{
-    margin-left: 172%;
-    width: 21%;
-    margin-top: 13%;
+    width: 9%;
+    margin-left: 35%;
    }
 
 
    #config{
-    margin-left: 205%;
-    width: 38%;
-    margin-top: 21%;
+    width: 10%;
    }
 
    #titulo_vendastopo{
@@ -277,22 +272,7 @@
   and (max-device-height: 598px)
    {
 
-    #sino_alerta{
-    margin-left: 129%;
-    width: 22%;
-   }
-
-
-   #config{
-    margin-left: 132%;
-    width: 38%;
-   }
-
-
-   #menu_hamburguer {
-    width: 71%;
-   }
-
+    
   
     #vendas_topo{
     font-size: 18px;
@@ -359,15 +339,6 @@
     }
 
 
-  #sino_alerta{
-    margin-left: 153%;
-   }
-
-
-   #config{
-    margin-left: 172%;
-   }
-
     #vendas_topo{
     font-size: 22px;
    }
@@ -410,15 +381,6 @@
     height: 50%;
    }
 
-  #sino_alerta{
-    margin-left: 170%;
-   }
-
-
-   #config{
-    margin-left: 182%;
-   }
-
     #vendas_topo{
     font-size: 22px;
    }
@@ -457,21 +419,8 @@
     background-color: green;
    }
 
-   #menu_hamburguer{
-    margin-top: -30%;
-   }
-
    #divtopo_vendas{
     height: 60%;
-   }
-
-  #sino_alerta{
-    margin-left: 170%;
-   }
-
-
-   #config{
-    margin-left: 210%;
    }
 
     #vendas_topo{
@@ -522,15 +471,6 @@
   and (max-device-height: 826px)
    {
 
-  #sino_alerta{
-    margin-left: 178%;
-   }
-
-
-   #config{
-    margin-left: 206%;
-   }
-
     #vendas_topo{
     font-size: 22px;
    }
@@ -567,14 +507,6 @@
   and (min-device-width: 270px) 
   and (max-device-width: 300px)
    {
-
-    #sino_alerta {
-    margin-left: 94%;
-  	}
-
-    #config {
-      margin-left: 78%;
-    }
 
     #botão_vermais {
     margin-left: 24%;
