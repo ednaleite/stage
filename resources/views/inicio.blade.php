@@ -38,7 +38,7 @@
  
   <body>
 
-  <div  id="div_vendas_semana">
+  <div id="divtopo_vendas">
    
     <div style="display: flex; flex-direction: row">
 
@@ -56,33 +56,96 @@
 
    </div>
 
-    <div id="vendas_topo">
+    <div id="titulo_vendastopo">
       Vendas
     </div>
-
 
     <div id="mes_atual_vendas">
       Agosto
     </div>
 
+
+     <div id="div_qtd_vendas">
+        
+        <div id="circulo_qtdvendas">
+          <div id="qtd_vendas">100</div>
+        </div>
+
+        <div id="circulo_qtdvendas">
+          <div id="qtd_vendas">100</div>
+        </div>
+
+        <div id="circulo_qtdvendas">
+          <div id="qtd_vendas">100</div>
+        </div>
+
+        <div id="circulo_qtdvendas">
+          <div id="qtd_vendas">100</div>
+        </div>
+
+        <div id="circulo_qtdvendas">
+          <div id="qtd_vendas">100</div>
+        </div>
+
+        <div id="circulo_qtdvendas">
+          <div id="qtd_vendas">100</div>
+        </div>
+
+        <div id="circulo_qtdvendas">
+          <div id="qtd_vendas">100</div>
+        </div>
+        
+    </div>
+
+
+    <div id="dias_semana">
+        <div>
+          Seg
+        </div>
+           
+        <div>
+          Ter
+        </div>
+
+        <div>
+          Qua
+        </div>
+
+        <div>
+          Qui
+        </div>
+
+        <div>
+          Sex
+        </div>
+
+        <div>
+          Sáb
+        </div>
+
+        <div>
+          Dom
+        </div>
+    </div>
+
+
   </div>
 
 
 
-  <div style="display: flex; flex-direction: row;">
+  <div style="display: flex; flex-direction: row;margin-top: 4%;">
+     <div id="titulo_produtos">
+        Produtos
+      </div>
 
-  <div id="titulo_produtos">
-    Produtos
+      <div id="botão_vermais">
+        <div id="texto_vermais">Ver mais</div>
+      </div>
   </div>
-
-  <div id="botão_vermais">
-    <div id="texto_vermais">Ver mais</div>
-  </div>
-
-   </div>
    
 
-   <div id="teste" style="margin-left: 3%;margin-top: -3%;">
+   <div id="divexterna_carousel">
+
     <section id="demos">
       <div class="row">
         <div class="">
@@ -141,10 +204,84 @@
     </section>
   </div>
 
-  <div id="div_lucros">
-  	
 
-  </div>
+
+  <div id="div_lucros">
+    
+    <div id="titulo_lucros">
+     Lucros 
+    </div>
+              
+    <!-- LUCRO ANUAL -->
+
+     <div id="div_circulo">
+
+        <span class="chart" data-percent="50"></span>
+
+        <div id="textos_circulo">
+
+              <div id="total_circulo">
+              Total
+              </div>
+
+              <div id="valor_lucrosanuais">
+              R$ 1.750.00
+              </div>
+
+              <div id="ano_lucros">
+              Ano de 2020
+              </div>
+        </div>
+
+    </div>
+
+
+       <div id="valores_lucros">
+           <div>
+             R$ 17.220.00
+           </div>
+
+           <div>
+             R$ 21.400.00
+           </div>
+
+            <div>
+             R$ 13.000.00
+           </div>
+       </div>
+       
+
+       <div id="HR">
+           <div>
+             <hr style="border: 1px solid #FFC9BE; width: 70px">
+           </div>
+
+           <div>
+             <hr style="border: 1px solid #FFC9BE; width: 70px">
+           </div>
+
+            <div>
+             <hr style="border: 1px solid #FFC9BE; width: 70px">
+           </div>
+       </div>
+
+
+       <div id="datas_lucros">
+           <div>
+             Dia
+           </div>
+
+           <div>
+             Semana
+           </div>
+
+            <div>
+             Mês
+           </div>
+       </div>
+    
+    </div>
+
 
 </body>
           
@@ -169,6 +306,25 @@
               })
             })
           </script>
+
+
+          <!-- PARTE DE EXIBIÇÃO DO LUCRO ANUAL -->
+       <!--  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script>
+        $(function($) {
+          $('.chart').easyPieChart({
+            easing: 'easeOutBounce',
+            scaleColor:false,
+            size:140,
+            trackColor:'#e7e7e7',
+            onStep: function(from, to, percent) {
+              $(this.el).find('.percent').text(Math.round(percent));
+            }
+          });
+        });
+        </script>
           
 
        <!--  </div>

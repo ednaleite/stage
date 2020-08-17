@@ -75,3 +75,12 @@ Route::get('/inicio', function(){
 Route::get('/heroku', function(){
     return view('heroku');
 });
+
+
+Route::get('/entao', function(){
+    return view('entao');
+});
+
+Route::get('/entao2', function(){
+    return view('entao2');
+});
