@@ -398,6 +398,57 @@
 
   @media  screen 
   and (min-device-height: 700px) 
+  and (max-device-height: 726px)
+   {
+
+
+   body{
+    background-color: orange;
+   }
+
+   #divtopo_vendas{
+    height: 50%;
+   }
+
+  #sino_alerta{
+    margin-left: 170%;
+   }
+
+
+   #config{
+    margin-left: 182%;
+   }
+
+    #vendas_topo{
+    font-size: 22px;
+   }
+
+   #div_lucros{
+    height: 55%;
+   }
+
+   #div_qtd_vendas {
+    margin: 60px 0px 30px 0px;
+   }
+
+   #titulo_vendastopo {
+    margin-top: 4%;
+   }
+
+   #div_circulo {
+    width: 37%;
+   }
+
+   #botão_vermais {
+    margin-top: 7%;
+    margin-left: 40%;
+   }
+
+  }
+
+
+  @media  screen 
+  and (min-device-height: 727px) 
   and (max-device-height: 746px)
    {
 
