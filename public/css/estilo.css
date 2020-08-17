@@ -272,10 +272,10 @@
 
 
 
- @media only screen 
+ @media  screen 
   and (min-device-height: 560px) 
   and (max-device-height: 598px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
 
     #sino_alerta{
     margin-left: 129%;
@@ -350,10 +350,10 @@
   }
 
 
-  @media only screen 
+  @media screen 
   and (min-device-height: 600px) 
   and (max-device-height: 645px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
     body{
       background-color: yellow;
     }
@@ -396,14 +396,26 @@
   }
 
 
-  @media only screen 
+ @media only screen 
   and (min-device-height: 700px) 
   and (max-device-height: 746px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+   {
+
+   body{
+    background-color: green;
+   }
+
+  }
+
+  @media  screen 
+  and (min-device-height: 700px) 
+  and (max-device-height: 746px)
+   {
 
 
    body{
-    background-color: pink;
+    background-color: grey;
    }
 
    #divtopo_vendas{
@@ -444,15 +456,15 @@
     margin-left: 40%;
    }
 
-  
-
   }
 
 
-  @media only screen 
+
+
+  @media  screen 
   and (min-device-height: 790px) 
   and (max-device-height: 826px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
 
   #sino_alerta{
     margin-left: 178%;
@@ -495,10 +507,10 @@
   }
 
 
-  @media only screen 
+  @media  screen 
   and (min-device-width: 270px) 
   and (max-device-width: 300px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
 
     #sino_alerta {
     margin-left: 94%;
@@ -525,10 +537,10 @@
 
 
 
-  /*@media only screen 
+  /*@media  screen 
   and (min-device-width: 450px) 
   and (max-device-width: 570px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
 
    #div_circulo {
     width: 31%;
