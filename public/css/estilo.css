@@ -329,11 +329,22 @@
      }
 
      #divtopo_vendas{
-      height: 51%;
+      height: 56%;
      }
 
+     #div_lucros{
+      height: 57%;
+     }
+
+     #div_qtd_vendas {
+        display: flex;
+        justify-content: space-around;
+        width: 98%;
+        margin: 34px 0px 30px 0px;
+    }
+
      body{
-      background-color: purple;
+      background-color: grey;
      }
 
   }
