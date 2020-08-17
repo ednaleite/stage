@@ -385,7 +385,7 @@
   }
 
 
-  /*@media only screen 
+  @media only screen 
   and (min-device-height: 700px) 
   and (max-device-height: 746px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -396,12 +396,12 @@
    }
 
   #sino_alerta{
-    margin-left: 188%;
+    margin-left: 172%;
    }
 
 
    #config{
-    margin-left: 233%;
+    margin-left: 200%;
    }
 
     #vendas_topo{
@@ -431,7 +431,7 @@
 
   
 
-  }*/
+  }
 
 
   @media only screen 
