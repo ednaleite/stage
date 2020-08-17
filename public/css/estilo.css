@@ -390,6 +390,11 @@
   and (max-device-height: 746px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+
+     body{
+    background-color: green;
+   }
+
   #sino_alerta{
     margin-left: 188%;
    }
@@ -424,9 +429,7 @@
     margin-left: 45%;
    }
 
-   body{
-    background-color: pink;
-   }
+  
 
   }
 
