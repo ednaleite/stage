@@ -11,6 +11,7 @@
 
    body{
     background-color: pink;
+    margin:0;
    }
 
 
@@ -25,18 +26,18 @@
    }
 
    #menu_hamburguer{
-      width: 11%;
+      width: 10%;
       margin-left: -2%;
    }
 
    #sino_alerta{
-    width: 9%;
+    width: 8%;
     margin-left: 35%;
    }
 
 
    #config{
-    width: 10%;
+    width: 8%;
    }
 
    #titulo_vendastopo{
