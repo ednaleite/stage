@@ -9,6 +9,11 @@
    }
 
 
+   body{
+    background-color: red;
+   }
+
+
    /*DIV TOPO VENDAS*/
 
    #divtopo_vendas{
@@ -267,7 +272,7 @@
 
 
 
-/* @media only screen 
+ @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 340px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -327,25 +332,29 @@
       height: 51%;
      }
 
-  }*/
+     body{
+      background-color: purple;
+     }
+
+  }
 
 
   @media only screen 
-  and (min-device-width: 341px) 
-  and (max-device-width: 365px)
+  and (min-device-height: 600px) 
+  and (max-device-height: 645px)
   and (-webkit-min-device-pixel-ratio: 2) {
     body{
-      background-color: pink;
+      background-color: yellow;
     }
 
 
   #sino_alerta{
-    margin-left: 145%;
+    margin-left: 153%;
    }
 
 
    #config{
-    margin-left: 123%;
+    margin-left: 172%;
    }
 
     #vendas_topo{
@@ -353,7 +362,7 @@
    }
 
    #div_lucros{
-    height: 50%;
+    height: 54%;
    }
 
    #botão_vermais{
@@ -376,7 +385,7 @@
   }
 
 
-  /*@media only screen 
+  @media only screen 
   and (min-device-height: 700px) 
   and (max-device-height: 746px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -413,6 +422,10 @@
    #botão_vermais {
     margin-top: 7%;
     margin-left: 45%;
+   }
+
+   body{
+    background-color: pink;
    }
 
   }
@@ -455,6 +468,10 @@
    #botão_vermais {
     margin-top: 7%;
     margin-left: 42%;
+   }
+
+   body{
+    background-color: blue;
    }
 
   }
@@ -513,38 +530,4 @@
     font-size: 11px;
     }
 
-  }*/
-
-
-
-
-
-
-
- /* @media only screen 
-  and (min-device-width: 407px) 
-  and (max-device-width: 420px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-   #div_lucros{
-    height: 45%;
-   }
-
-   #botão_vermais{
-    margin-left: 46%;
-   }
-
-   #div_qtd_vendas {
-    margin: 66px 0px 30px 0px;
-   }
-
-
-  #titulo_vendastopo {
-    margin-top: 11%;
   }
-
-  #div_circulo {
-    width: 37%;
-  }
-
-  }*/
