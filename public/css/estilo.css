@@ -454,15 +454,11 @@
 
 
    body{
-    background-color: pink;
-   }
-
-   #menu_hamburguer{
-    margin-top: 10%;
+    background-color: green;
    }
 
    #divtopo_vendas{
-    height: 56%;
+    height: 60%;
    }
 
   #sino_alerta{
