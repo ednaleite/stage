@@ -385,7 +385,7 @@
   }
 
 
-  @media only screen 
+  /*@media only screen 
   and (min-device-height: 700px) 
   and (max-device-height: 746px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -431,7 +431,7 @@
 
   
 
-  }
+  }*/
 
 
   @media only screen 
