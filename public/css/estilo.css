@@ -335,17 +335,17 @@
   and (max-device-width: 365px)
   and (-webkit-min-device-pixel-ratio: 2) {
     body{
-      background-color: pink;
+      background-color: green;
     }
 
 
   #sino_alerta{
-    margin-left: 154%;
+    margin-left: 145%;
    }
 
 
    #config{
-    margin-left: 170%;
+    margin-left: 160%;
    }
 
     #vendas_topo{
@@ -370,7 +370,7 @@
    }
 
    #divtopo_vendas {
-    height: 50%;
+    height: 55%;
   }
 
   }
