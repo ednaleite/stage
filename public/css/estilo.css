@@ -392,7 +392,7 @@
 
 
    body{
-    background-color: green;
+    background-color: orange;
    }
 
    #divtopo_vendas{
@@ -400,12 +400,12 @@
    }
 
   #sino_alerta{
-    margin-left: 172%;
+    margin-left: 170%;
    }
 
 
    #config{
-    margin-left: 180%;
+    margin-left: 182%;
    }
 
     #vendas_topo{
@@ -421,7 +421,7 @@
    }
 
    #titulo_vendastopo {
-   	margin-top: 6%;
+   	margin-top: 4%;
    }
 
    #div_circulo {
