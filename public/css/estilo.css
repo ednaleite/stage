@@ -457,6 +457,10 @@
     background-color: green;
    }
 
+   #menu_hamburguer{
+    margin-top: -32%;
+   }
+
    #divtopo_vendas{
     height: 60%;
    }
@@ -483,7 +487,8 @@
    }
 
    #titulo_vendastopo {
-   	margin-top: -2%;
+   	margin-top: -8%;
+   /* margin-left: -2%;*/
    }
 
    #div_circulo {
