@@ -267,7 +267,7 @@
 
 
 
- @media only screen 
+/* @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 340px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -327,7 +327,7 @@
       height: 51%;
      }
 
-  }
+  }*/
 
 
   @media only screen 
@@ -376,7 +376,7 @@
   }
 
 
-  @media only screen 
+  /*@media only screen 
   and (min-device-height: 700px) 
   and (max-device-height: 746px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -513,7 +513,11 @@
     font-size: 11px;
     }
 
-  }
+  }*/
+
+
+
+
 
 
 
