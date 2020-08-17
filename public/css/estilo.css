@@ -335,7 +335,7 @@
   and (max-device-width: 365px)
   and (-webkit-min-device-pixel-ratio: 2) {
     body{
-      background-color: green;
+      background-color: pink;
     }
 
 
@@ -345,7 +345,7 @@
 
 
    #config{
-    margin-left: 143%;
+    margin-left: 123%;
    }
 
     #vendas_topo{
