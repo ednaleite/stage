@@ -379,7 +379,7 @@
    }
 
    #divtopo_vendas {
-    height: 55%;
+    height: 56%;
   }
 
   }
@@ -391,8 +391,12 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
 
-     body{
+   body{
     background-color: green;
+   }
+
+   #divtopo_vendas{
+    height: 50%;
    }
 
   #sino_alerta{
@@ -401,7 +405,7 @@
 
 
    #config{
-    margin-left: 195%;
+    margin-left: 180%;
    }
 
     #vendas_topo{
@@ -445,7 +449,7 @@
 
 
    #config{
-    margin-left: 210%;
+    margin-left: 206%;
    }
 
     #vendas_topo{
