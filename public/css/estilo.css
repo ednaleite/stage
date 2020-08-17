@@ -362,7 +362,7 @@
    }
 
    #div_lucros{
-    height: 54%;
+    height: 57%;
    }
 
    #botão_vermais{
@@ -371,11 +371,11 @@
    }
 
    #div_qtd_vendas {
-    margin: 53px 0px 30px 0px;
+    margin: 58px 0px 30px 0px;
    }
 
    #titulo_vendastopo {
-   	margin-top: 10%;
+   	margin-top: 8%;
    }
 
    #divtopo_vendas {
@@ -401,7 +401,7 @@
 
 
    #config{
-    margin-left: 200%;
+    margin-left: 195%;
    }
 
     #vendas_topo{
@@ -440,12 +440,12 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
   #sino_alerta{
-    margin-left: 196%;
+    margin-left: 178%;
    }
 
 
    #config{
-    margin-left: 243%;
+    margin-left: 210%;
    }
 
     #vendas_topo{
