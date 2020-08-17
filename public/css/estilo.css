@@ -272,9 +272,9 @@
 
 
 
-/* @media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 340px)
+ @media only screen 
+  and (min-device-height: 560px) 
+  and (max-device-height: 598px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
     #sino_alerta{
@@ -347,7 +347,7 @@
       background-color: grey;
      }
 
-  }*/
+  }
 
 
   @media only screen 
@@ -373,7 +373,7 @@
    }
 
    #div_lucros{
-    height: 57%;
+    height: 62%;
    }
 
    #botão_vermais{
@@ -390,7 +390,7 @@
    }
 
    #divtopo_vendas {
-    height: 56%;
+    height: 60%;
   }
 
   }
@@ -495,6 +495,36 @@
   }
 
 
+  @media only screen 
+  and (min-device-width: 270px) 
+  and (max-device-width: 300px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #sino_alerta {
+    margin-left: 94%;
+  	}
+
+    #config {
+      margin-left: 78%;
+    }
+
+    #botão_vermais {
+    margin-left: 24%;
+    }
+
+    #valores_lucros {
+    font-size: 11px;
+    }
+
+    #div_circulo {
+    width: 55%;
+    }
+
+  }
+
+
+
+
   /*@media only screen 
   and (min-device-width: 450px) 
   and (max-device-width: 570px)
@@ -525,28 +555,3 @@
   }
 
   }*/
-
-
- /* @media only screen 
-  and (min-device-width: 270px) 
-  and (max-device-width: 300px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-    #sino_alerta {
-    margin-left: 94%;
-  	}
-
-    #config {
-      margin-left: 78%;
-    }
-
-    #botão_vermais {
-    margin-left: 24%;
-    }
-
-    #valores_lucros {
-    font-size: 11px;
-    }
-
-  }
-*/
