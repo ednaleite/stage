@@ -334,14 +334,18 @@
   and (min-device-width: 341px) 
   and (max-device-width: 365px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+      background-color: pink;
+    }
+
 
   #sino_alerta{
-    margin-left: 164%;
+    margin-left: 154%;
    }
 
 
    #config{
-    margin-left: 180%;
+    margin-left: 170%;
    }
 
     #vendas_topo{
@@ -420,12 +424,12 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
   #sino_alerta{
-    margin-left: 164%;
+    margin-left: 196%;
    }
 
 
    #config{
-    margin-left: 185%;
+    margin-left: 243%;
    }
 
     #vendas_topo{
