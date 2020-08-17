@@ -396,18 +396,6 @@
   }
 
 
- @media only screen 
-  and (min-device-height: 700px) 
-  and (max-device-height: 746px)
-  and (-webkit-min-device-pixel-ratio: 2)
-   {
-
-   body{
-    background-color: green;
-   }
-
-  }
-
   @media  screen 
   and (min-device-height: 700px) 
   and (max-device-height: 746px)
@@ -415,7 +403,7 @@
 
 
    body{
-    background-color: grey;
+    background-color: pink;
    }
 
    #divtopo_vendas{
@@ -458,6 +446,18 @@
 
   }
 
+
+ /* @media only screen 
+  and (min-device-height: 700px) 
+  and (max-device-height: 746px)
+  and (-webkit-min-device-pixel-ratio: 2)
+   {
+
+   body{
+    background-color: green;
+   }
+
+  }*/
 
 
 
