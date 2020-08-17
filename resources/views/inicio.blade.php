@@ -40,7 +40,12 @@
 
   <div id="divtopo_vendas">
    
-    <div style="display: flex;flex-direction: row;justify-content: space-around;width: 100%;">
+    <div style="display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;">
 
       <img src="imagens/menuhamb.svg"  id="menu_hamburguer">
 
