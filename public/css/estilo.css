@@ -272,7 +272,7 @@
 
 
 
- @media only screen 
+/* @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 340px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -347,7 +347,7 @@
       background-color: grey;
      }
 
-  }
+  }*/
 
 
   @media only screen 
@@ -495,7 +495,7 @@
   }
 
 
-  @media only screen 
+  /*@media only screen 
   and (min-device-width: 450px) 
   and (max-device-width: 570px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -524,10 +524,10 @@
     height: 49%;
   }
 
-  }
+  }*/
 
 
-  @media only screen 
+ /* @media only screen 
   and (min-device-width: 270px) 
   and (max-device-width: 300px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -549,3 +549,4 @@
     }
 
   }
+*/
