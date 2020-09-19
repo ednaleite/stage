@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body{
+	width: 100%;
+}
+
+/*.divtopo{
+	background-color: pink; 
+	max-width: 100%; 
+	margin: 0 auto;
+	display: flex; 
+	justify-content: space-around;
+	flex-wrap: wrap; 
+	padding-top: 10px;
+}*/
+
+/*.divtopo p{
+	margin: 0px 10px 10px 10px;
+	padding: 4px;
+}
+
+.divtopobg{
+	width: 100%;
+}
+*/
+
+.sino_config{    
+	display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: -46px;
+    margin-left: 34%;
+}
+
+.sino{
+	width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sino_alerta{
+	 width: 6vh;
+}
+
+.config{
+	width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.config_topo{
+	width: 6vh;
+}
+
+
+
+/*COMEÇO MENU*/
+.btnMenu{
+	display: block;
+	background-repeat: no-repeat;	
+	text-indent: -9999px;
+	padding: 20px 15px;
+	background-size: 45px;
+}
+
+.btnMenu_open{
+	background-image: url(../imagens/cardapio.svg);
+	background-position: 22px center;
+
+}
+
+
+.btnMenu_close{
+	background-color: grey;
+	background-image: url(../imagens/cardapio.svg);	
+	background-position: 95% center;
+}
+
+.menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transform: translateX(-100%);
+	transition: transform 200ms linear;
+	 z-index: 5;
+    background-color: #f1e9e9
+}
+
+
+.menu_open{
+	transform: translateX(0);
+}
+
+
+.menu-item{
+	padding: 20px 15px;
+	border-bottom: 1px solid rgba(116, 124, 129, 0.8);
+}
+
+
+.menu-item-action{
+	color: grey;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+/*FIM MENU*/
+
+
+.div_vendas_lucros{
+	position: relative;
+	margin: -16px 22px;
+	max-width: 100%; 
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap; 
+	padding-top: 10px; 
+	
+}
+
+.hr1{
+	background-color: #FFC9BE;
+    border: none;
+    width: 74px;
+    height: 0.2%;
+   /* margin: -15% 3.8%;*/
+}
+
+
+
+.hr2{
+	background-color: #FFC9BE;
+    border: none;
+    width: 78px;
+    height: 0.3%;
+    margin: 5.2% 4%;
+}
+
+
+
+.sistema_estoque{
+	position: relative;
+    margin: 58px 21px;
+}
+
+
+/*CONFIGURAÇÕES DE FONTE*/
+.fontesgeral{
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+	color: #000000;
+}
+
+.fontes_topo{
+	font-size: 17px;
+	line-height: 28px;
+}
+
+.sistema_estoque_fonte{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/*FIM CONFIGURAÇÕES DE FONTE*/
+
+
+
+/*COMEÇO DIV VENDAS*/
+
+.div_vendas{
+	background: #FFFEFE;
+	box-shadow: 0px 2px 8px #E5E5E5;
+	border-radius: 13px;
+    width: 34rem;
+    height: 20rem;
+}
+
+.div_vendas_titulo{
+	padding: 22px 22px;
+    font-size: 21px;
+    line-height: 33px;
+    letter-spacing: 0.055em;
+}
+
+
+.div_vendas_mes{
+	position: relative;
+	margin: -16px 24px;
+    font-size: 15px;
+    line-height: 33px;
+    letter-spacing: 0.055em;
+}
+
+
+.div_vendas_semanais{
+   	/*background: yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 98%;
+    margin: 88px auto;
+}
+
+
+.div_qtd_vendas{
+	position: relative;
+	margin-top: 48px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	letter-spacing: 0.01em;
+}
+
+.div_dias_semana{
+	padding: 26px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.04em;
+	color: rgba(0, 0, 0, 0.57);
+}
+/*FIM DIV VENDAS*/
+
+
+
+/*COMEÇO DIV LUCROS*/
+.div_lucros{
+	background: #FFFEFE;
+	box-shadow: 0px 2px 8px #E5E5E5;
+	border-radius: 13px;
+    width: 34rem;
+    height: 20rem;
+}
+
+.Lucros{
+	margin-left: 7%;
+}
+
+.circulo_lucros{
+	margin-left: 181px;
+}
+/*FIM DIV LUCROS*/
