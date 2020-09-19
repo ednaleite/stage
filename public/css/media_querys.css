@@ -20,6 +20,14 @@
     	margin: 83px auto;
 	}
 
+  .hrs{
+    width: 70px;
+  }
+
+  .div_dias_semana {
+    font-size: 14px;
+  }
+
  }
 
 
@@ -55,15 +63,18 @@
     margin-top: 22px;
 }
 
+.hrs {
+    border: 1px solid #FFC9BE;
+    width: 80px;
+  }
+
 }
 
 
 
+@media screen and (min-width: 900px) { 
 
-
-@media screen and (min-width: 640px) { 
-
-  	.btnMenu{
+  .btnMenu{
 	display: block;
 	background-repeat: no-repeat;	
 	text-indent: -9999px;
@@ -87,7 +98,7 @@
 .menu{
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -18 !important;
 	width: 40%; 
 	transform: translateX(-100%);
 	transition: transform 200ms linear;
@@ -203,7 +214,13 @@
     margin-top: 23px;
 }
 
+.row{
+  max-width:90%;
+  width:100%
 }
+
+}
+
 
 
 

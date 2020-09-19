@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
 
 
 body{
@@ -87,7 +87,7 @@ body{
 .menu{
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -18 !important;
 	width: 100%;
 	transform: translateX(-100%);
 	transition: transform 200ms linear;
@@ -158,7 +158,7 @@ body{
 	font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.06em;
 	color: #000000;
 }
 
@@ -241,6 +241,8 @@ body{
 
 /*COMEÇO DIV LUCROS*/
 .div_lucros{
+	position: relative;
+    max-width: 100%;
 	background: #FFFEFE;
 	box-shadow: 0px 2px 8px #E5E5E5;
 	border-radius: 13px;
@@ -253,6 +255,117 @@ body{
 }
 
 .circulo_lucros{
-	margin-left: 181px;
+	left: 50%;
+	top: 3%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.textos_circulo{
+	margin-top: -8rem;
+    margin-left: 1rem;
+}
+
+#total_circulo{
+	margin-left: 25%;
+    padding-bottom: 16%;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#valor_lucrosanuais{
+	font-size: 19px;
+	font-family: Antic;
+	font-weight: normal;
+	line-height: 26px;
+}
+
+#ano_lucros{
+	margin-left: 7%;
+	margin-top: 1%;
+    font-size: 14px;
+    font-family: Antic;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+.valor_lucros{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+    margin-top: 12.5rem;
+    width: 100%;
+}
+
+.valor_lucros_reais{
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.digitos{
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.02em;
+}
+
+.periodo{
+	font-size: 15px;
+	line-height: 19px;
+	letter-spacing: 0.055em;
+}
+
+.hrs_lucros{
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+
+.hrs{
+	border: 1px solid #FFC9BE;
+    width: 96px;
+}
+
+.periodo_lucros{
+	width: 102%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 /*FIM DIV LUCROS*/
+
+
+/*COMEÇO PRODUTOS*/
+.produtos{
+	max-width: 100%;
+    position: relative;
+    margin: 60px 22px;
+}
+
+.hr_produtos{
+	border: 1px solid #FFC9BE;
+    width: 63px;
+}
+
+#imagem_produtos {
+    height: 75%;
+    border-radius: 9px;
+}
+/*FIM PRODUTOS*/
+
+
+
+/*COMEÇO FUNÇÕES*/
+.funcoes{
+	max-width: 100%;
+    position: relative;
+    margin: 60px 22px;
+}
+/*FIM FUNÇÕES*/
+
+
+
+
