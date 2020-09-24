@@ -34,10 +34,11 @@ body{
 
 .sino_config{    
 	position: absolute;
-	display: flex;
+    display: flex;
     flex-direction: row;
     width: 60%;
-    margin-top: -46px;
+    top: 0;
+    padding: 16px 0px;
     margin-left: 34%;
 }
 
