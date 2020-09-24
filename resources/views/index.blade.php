@@ -22,7 +22,6 @@
 	<script src="js/jquery.easypiechart.min.js"></script>
 
 
-
 			<nav class="wrap-menu">
 				<a href="#menu" class="btnMenu btnMenu_open">Menu</a>
 
@@ -68,7 +67,7 @@
 				<div>
 					<div>
 					Venda Mensal
-					<!-- <hr class="hr2"> --><br><br>
+					<hr class="hr2"><br>
 					</div>
 
 					<div class="div_vendas">
@@ -104,7 +103,7 @@
 				<div  class="Lucros">
 					<div>
 						Consulte seus Lucros
-						<!-- <hr> -->
+						<hr class="hr3">
 					</div>
 					<br>
 
@@ -156,7 +155,7 @@
 			<div class="funcoes">
 				<div class="fontesgeral fontes_topo">
 					Funções
-					<hr class="hr_produtos">
+					<hr class="hr_produtos_funcoes">
 				</div>
 			</div>
 
@@ -164,7 +163,7 @@
 
 			<div class="produtos fontesgeral fontes_topo">
 				<div>Produtos</div>
-				<hr class="hr_produtos">
+				<hr class="hr_produtos_funcoes">
 
 
 				<div style="max-width: 100%;">
@@ -178,29 +177,37 @@
 							                <img src="imagens/modelo1.jpg" style="width: 100%;height: 100%;border-radius: 10px">
 							              </div>
 
-							              <div style="height: 50%;border-radius: 9px;">
-							                2
+							              <div class="descricao_produtos">
+							                <div class="nome_produto">Macacão Cardigan Preto M </div>
+							                <div class="qtd_estoque_vendidos">Estoque: 240</div>
+							                <div class="qtd_estoque_vendidos" style="margin-top: -5px;margin-bottom: 4px;margin-left: 8px;">Vendidos: 240
+							                </div>
 							              </div>
 						            </div>
 
 						            <div class="item">
 							              <div id="imagem_produtos">
-							              	<img src="imagens/modelo1.jpg" style="width: 100%;height: 100%;border-radius: 10px">
+							              	<img src="imagens/modelo2.jpg" style="width: 100%;height: 100%;border-radius: 10px">
 							              </div>
 
-							              <div style="height: 50%;border-radius: 9px;">
-							                2
+							              <div class="descricao_produtos">
+							                <div class="nome_produto">Macacão Cardigan Preto M</div>
+							                <div class="qtd_estoque_vendidos">Estoque: 240</div>
+							                <div class="qtd_estoque_vendidos" style="margin-top: -5px;margin-bottom: 4px;margin-left: 8px;">Vendidos: 240
+							                </div>
 							              </div>
 						            </div>
 
 						            <div class="item">
 							              <div id="imagem_produtos">
-							              	<img src="imagens/modelo1.jpg" style="width: 100%;height: 100%;border-radius: 10px">
-		 
+							              	<img src="imagens/modelo3.jpg" style="width: 100%;height: 100%;border-radius: 10px">
 							              </div>
 
-							              <div style="height: 50%;border-radius: 9px;">
-							                2
+							              <div class="descricao_produtos">
+							                <div class="nome_produto">Macacão Cardigan Preto M</div>
+							                <div class="qtd_estoque_vendidos">Estoque: 240</div>
+							                <div class="qtd_estoque_vendidos" style="margin-top: -5px;margin-bottom: 4px;margin-left: 8px;">Vendidos: 240
+							                </div>
 							              </div>
 					            	</div>
 					          	</div>
@@ -224,7 +231,7 @@
                 loop: true,
                 responsive: {
                   0: {
-                    items: 2.9
+                    items: 2.4
                   },
                   500: {
                     items: 4
@@ -232,8 +239,11 @@
                   700:{
                   	items: 5
                   },
-                  1000: {
-                    items: 8
+                  850:{
+                  	items: 6.5
+                  },
+                  1200: {
+                    items: 8.5
                   }
                 }
               })

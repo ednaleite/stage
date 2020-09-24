@@ -28,6 +28,14 @@
     font-size: 14px;
   }
 
+  .nome_produto {
+    font-size: 0.8em;
+  }
+
+  .qtd_estoque_vendidos {
+    font-size: 0.8em;
+  }
+
  }
 
 
@@ -40,8 +48,19 @@
 
 .Lucros{
 	margin-top: 10%;
-    margin-left: 0%;
+  margin-left: 0%;
 }
+
+}
+
+@media screen and (min-width: 850px) and (max-width: 970px){ 
+  .nome_produto {
+    font-size: 0.7rem;
+  }
+
+  .qtd_estoque_vendidos {
+    font-size: 0.7rem;
+  }
 
 }
 
@@ -79,7 +98,7 @@
 	background-repeat: no-repeat;	
 	text-indent: -9999px;
 	padding: 20px 15px;
-	background-size: 45px;
+	background-size: 35px;
 	}
 
 .btnMenu_open{
@@ -124,13 +143,13 @@
 }
 
 
-.sino_alerta{
+/*.sino_alerta{
 	 width: 5vh;
 }
 
 .config_topo{
 	width: 5vh;
-}
+}*/
 
 
 }
@@ -222,6 +241,24 @@
 }
 
 
+@media screen and (min-width: 1300px){ 
+
+.sistema_estoque{
+  position: relative;
+  margin: 20px 21px 35px;
+}
+
+.div_vendas{
+    width: 28rem;
+    height: 18rem;
+}
+
+.div_lucros{
+    width: 28rem;
+    height: 18rem;
+}
+
+}
 
 
 

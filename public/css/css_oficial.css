@@ -33,6 +33,7 @@ body{
 */
 
 .sino_config{    
+	position: absolute;
 	display: flex;
     flex-direction: row;
     width: 60%;
@@ -47,7 +48,7 @@ body{
 }
 
 .sino_alerta{
-	 width: 6vh;
+	 width: 5vh;
 }
 
 .config{
@@ -57,7 +58,7 @@ body{
 }
 
 .config_topo{
-	width: 6vh;
+	width: 5vh;
 }
 
 
@@ -68,7 +69,7 @@ body{
 	background-repeat: no-repeat;	
 	text-indent: -9999px;
 	padding: 20px 15px;
-	background-size: 45px;
+	background-size: 35px;
 }
 
 .btnMenu_open{
@@ -138,13 +139,14 @@ body{
 
 
 .hr2{
-	background-color: #FFC9BE;
-    border: none;
-    width: 78px;
-    height: 0.3%;
-    margin: 5.2% 4%;
+	border: 1px solid #FFC9BE;
+    width: 73px;
 }
 
+.hr3{
+	border: 1px solid #FFC9BE;
+    width: 95px;
+}
 
 
 .sistema_estoque{
@@ -179,6 +181,7 @@ body{
 /*COMEÇO DIV VENDAS*/
 
 .div_vendas{
+	margin-top: 17px;
 	background: #FFFEFE;
 	box-shadow: 0px 2px 8px #E5E5E5;
 	border-radius: 13px;
@@ -241,6 +244,7 @@ body{
 
 /*COMEÇO DIV LUCROS*/
 .div_lucros{
+	margin-top: 17px;
 	position: relative;
     max-width: 100%;
 	background: #FFFEFE;
@@ -305,7 +309,7 @@ body{
 }
 
 .digitos{
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 19px;
 	letter-spacing: 0.02em;
 }
@@ -321,6 +325,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 3px;
     padding-bottom: 2%;
 }
 
@@ -345,14 +350,33 @@ body{
     margin: 60px 22px;
 }
 
-.hr_produtos{
+.hr_produtos_funcoes{
 	border: 1px solid #FFC9BE;
-    width: 63px;
+    width: 60px;
 }
 
 #imagem_produtos {
-    height: 75%;
+    height: 70%;
     border-radius: 9px;
+}
+
+.descricao_produtos{
+	height: 50%;
+	border-radius: 9px;
+}
+
+.nome_produto{
+	letter-spacing: 0.01em;
+    padding: 4px;
+    line-height: 22px;
+    font-size: 0.8rem;
+}
+
+.qtd_estoque_vendidos{
+	letter-spacing: -0.007em;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 8px;
 }
 /*FIM PRODUTOS*/
 
